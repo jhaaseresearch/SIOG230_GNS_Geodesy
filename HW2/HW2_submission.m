@@ -20,9 +20,9 @@ lon = 4.6766;
 elevation = 432.4222;
 
 % printing out comparisons
-sprintf("Longitude from xyz2wgs " + num2str(B(2)))
-sprintf("Latitude from xyz2wgs " + num2str(B(3)))
-sprintf("Height from xyz2wgs " + num2str(B(4)))
+sprintf("x = " + num2str(x) + "m, Longitude from xyz2wgs " + num2str(B(2)) + " degrees")
+sprintf("y = " + num2str(y) + "m, Latitude from xyz2wgs " + num2str(B(3)) + " degrees")
+sprintf("elevation = " + num2str(z) + " m, Height from xyz2wgs " + num2str(B(4)) + " m")
 
 % creating a new matrix of values
 N = 30;
