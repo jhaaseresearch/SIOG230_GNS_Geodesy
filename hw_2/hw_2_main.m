@@ -19,3 +19,11 @@ for t = 1:N
 end
 
 output = [time_output, lon, lat, h]
+
+
+%one single run
+%[time_output, lon, lat, h] = xyz2wgs(time, X,Y,Z);
+% fprintf('time output [s]:\n %g\n', time_output);
+% fprintf('longitude [deg] output:\n %g\n', lon);
+% fprintf('latitude [deg]:\n %g\n', lat);
+% fprintf('height [m]:\n %g\n', h);
