@@ -19,7 +19,6 @@ for t = 1:N
 end
 
 output = [time_output, lon, lat, h]
-% results for lon and lat seem to be wrong!
 
 %one single run
 %[time_output, lon, lat, h] = xyz2wgs(time, X,Y,Z);
