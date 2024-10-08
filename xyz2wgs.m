@@ -8,37 +8,37 @@
 % 
 % To check that your code works for a list of N positions at N different time points repeat the x, y, z values above N times and set the time values to be 1:N
 
-
-close
-clear
-clc
+function [Lon, Lat, Elev] = xyz2wgs(x,y,z)
 
 
-x = [ 4433469.9438 4433469.9438 4433469.9438]
-y = [362672.7267 362672.7267 362672.7267]
-z = [4556211.6409 4556211.6409 4556211.6409]
+    
+    % x = [ 4433469.9438 4433469.9438 4433469.9438]
+    % y = [362672.7267 362672.7267 362672.7267]
+    % z = [4556211.6409 4556211.6409 4556211.6409]
+    
+      
+    a = 6378137.0000; %meters
+    f = 1.0/298.257223563;
+    b = a*(1-f);
+    
+    e1 = (a^2 - b^2)/(b^2);
+    e2 = 2*f - f^2;
+    
+    p = sqrt(x.^2 + y.^2);
+    theta = atan2(z.*a,p.*b);
+    
+    
+    Lon = (atan2(y,x)) * (180/pi) ;
+    Lat = atan2(z+((sin(theta)).^3).*e1.*b, p - (cos(theta)).^3 .* e2 .* a) * (180/pi);
+    Elev = p.*cos(Lat*(pi/180)) + z.*sin(Lat*(pi/180)) - a.*sqrt(1.0 - e2.*(sin(Lat *(pi/180)).^2));
+    
+    disp("--------------------------------")
+    
+    disp(Lat);
+    disp(Lon);
+    disp(Elev);
 
-  
-a = 6378137.0000; %meters
-f = 1.0/298.257223563;
-b = a*(1-f);
-
-e1 = (a^2 - b^2)/(b^2);
-e2 = 2*f - f^2;
-
-p = sqrt(x.^2 + y.^2);
-theta = atan2(z.*a,p.*b);
-
-
-Lon = (atan2(y,x)) * (180/pi) ;
-Lat = atan2(z+((sin(theta)).^3).*e1.*b, p - (cos(theta)).^3 .* e2 .* a) * (180/pi);
-Elev = p.*cos(Lat*(pi/180)) + z.*sin(Lat*(pi/180)) - a.*sqrt(1.0 - e2.*(sin(Lat *(pi/180)).^2));
-
-disp("--------------------------------")
-
-disp(Lat);
-disp(Lon);
-disp(Elev);
+end
 
 
 
