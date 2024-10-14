@@ -1,0 +1,7 @@
+epgga9_mod.292 has the lat epoch removed for each satellite
+all the epochs are for 10 19 except the last one changes day to 10 20
+
+32 19 10 19 22  0  0.0 9.701913222671D-05 1.284661266254D-11 0.000000000000D+00
+32 19 10 20  0  0  0.0 9.711133316159D-05 1.284661266254D-11 0.000000000000D+00
+
+I copied epgga9_mod.292 to brdc2920.19n
