@@ -10,16 +10,17 @@ function [X,Y,Z] = get_satpos(t1,t2,sv,filename)
     
     
     %inputs t eph sv
-    %t = 600000
-    %sv = 1
+    % t1 = 1
+    % t2 = 518400
+    % sv = 31
    
 
     
     GM  = 3.986005e14;  % Universal gravitational constant times the mass of the Earth, [m^3/s^2]
     gpsPi  = 3.1415926535898;
     omega_e = 7.2921151467E-05;
-    %file = readlines('brdc2920.19n.txt');
-    file = readlines(filename);
+    file = readlines('brdc2920.19n.txt');
+    %file = readlines(filename);
 
     if sv > 4
 
@@ -32,12 +33,12 @@ function [X,Y,Z] = get_satpos(t1,t2,sv,filename)
     end
  
 
-    Line1 = char(file(14));
-    Line2 = char(file(15));
-    Line3= char(file(16));
-    Line4= char(file(17));
-    Line5=char(file(18));
-    Line6=char(file(19));
+    Line1 = char(eph(1));
+    Line2 = char(eph(2));
+    Line3= char(eph(3));
+    Line4= char(eph(4));
+    Line5=char(eph(5));
+    Line6=char(eph(6));
     
     
     day = Line1(10:11);
@@ -63,7 +64,7 @@ function [X,Y,Z] = get_satpos(t1,t2,sv,filename)
     
     
     toe = strrep(toe, 'D', 'E');
-    roota = strrep(roota, 'D', 'E');
+    roota = strrep(roota, 'D', 'E')
     mu_0 = strrep(mu_0, 'D', 'E');
     DeltaN = strrep(DeltaN, 'D', 'E');
     e = strrep(e, 'D', 'E');
@@ -148,9 +149,17 @@ function [X,Y,Z] = get_satpos(t1,t2,sv,filename)
     
     
     
-       X = cos(nu)*r * cos(Omega) - sin(nu)*r * cos(i)*sin(Omega);
-       Y = cos(nu)*r * sin(Omega) + sin(nu)*r * cos(i)*cos(Omega);
-       Z = sin(nu)*r * sin(i);
+       % X = cos(nu)*r * cos(Omega) - sin(nu)*r * cos(i)*sin(Omega);
+       % Y = cos(nu)*r * sin(Omega) + sin(nu)*r * cos(i)*cos(Omega);
+       % Z = sin(nu)*r * sin(i);
+
+        R = [cos(Omega)*cos(u) - sin(Omega)*sin(u)*cos(i), -cos(Omega)*sin(u) - sin(Omega)*cos(u)*cos(i), sin(Omega)*sin(i);  ...
+            sin(Omega)*cos(u) + cos(Omega)*sin(u)*cos(i) , -sin(Omega)*sin(u) + cos(Omega)*cos(u)*cos(i), -cos(Omega)*sin(i); ...
+            sin(u)*sin(i) , cos(u)*sin(i), cos(i)];
+ r_vec = [r*cos(nu) ; r*sin(nu); 0];
+
+        [X,Y,Z] = R*r_vec
+       %
 
 
 
