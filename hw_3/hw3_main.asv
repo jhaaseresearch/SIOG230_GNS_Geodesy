@@ -6,8 +6,9 @@ clc
 [eph,alpha,beta,dow] = read_rinexn('brdc2920.19n');
 %how to define t? -> see f)
 % first epoch of day 292/2019, when t = 6 × 24 × 3600:
-t = 6;
 %how to define sv -> see f)
+
+t = 6;%calculate time!!!!
 sv=31;
 rho = getsatpos(t, sv, eph)
 
