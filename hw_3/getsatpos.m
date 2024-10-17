@@ -9,32 +9,35 @@ function [rho] = getsatpos(t,sv, eph)
 
     %papameters from navigation file:
     %closest toe:
-    toe = eph(18,:);
+    sv_idx = find(eph(1,:)==sv);
+    eph_sv = eph(:,sv_idx)
+    
+    toe = eph_sv(18,:);
     t = t*3600*24;
     del_toe_t = abs(toe-t);
     [min_val, idx] = min(del_toe_t);
     toe_closest = toe(idx);
     t_k = t - toe_closest;
     
-    svprn = eph(1,:);
-    M0 = eph(3,idx);
-    roota = eph(4,idx);
-    deltan = eph(5,idx);
-    ecc = eph(6,idx);  
-    omega0 = eph(7,idx);
-    cuc = eph(8,idx);
-    cus = eph(9,idx);
-    crc = eph(10,idx);
-    crs = eph(11,idx);
-    cic = eph(14,idx);
-    cis = eph(15,idx);
-    i0 = eph(12,idx);
-    idot = eph(13,idx);
-    Omega0 = eph(16,idx);
-    Omegadot = eph(17,idx);
+
+    M0 = eph_sv(3,idx)
+    roota = eph_sv(4,idx);
+    deltan = eph_sv(5,idx);
+    ecc = eph_sv(6,idx);  
+    omega0 = eph_sv(7,idx);
+    cuc = eph_sv(8,idx);
+    cus = eph_sv(9,idx);
+    crc = eph_sv(10,idx);
+    crs = eph_sv(11,idx);
+    cic = eph_sv(14,idx);
+    cis = eph_sv(15,idx);
+    i0 = eph_sv(12,idx);
+    idot = eph_sv(13,idx);
+    Omega0 = eph_sv(16,idx);
+    Omegadot = eph_sv(17,idx);
     a = roota.^2;
-    
-   
+
+
     %mean anomaly at t
     mu = M0 + (sqrt(GM)./(roota.^3) + deltan) .* t_k;
     E = mu;
@@ -47,13 +50,13 @@ function [rho] = getsatpos(t,sv, eph)
             E = E_new;
         end
     end
-    
+
     %true anomaly v
     v = atan2((sqrt(1-ecc.^2).*sin(E)), (cos(E)-ecc));%maybe have to flip y and x!!
     omega = omega0 + cuc.*cos(2.*(omega0 + v)) + cus.*sin(2.*(omega0 + v));
     r = a.*(1 - ecc.*cos(E)) + crc.* cos(2.*(omega0 +v) + crs .* sin(2.*(omega0 +v)));
     i = i0 + idot.* t_k + cic.*cos(2.*(omega0 + v)) + cis.*sin(2.*(omega0 + v));
-    
+
 
     Omega = Omega0 + (Omegadot - omegaE).*t_k - (omegaE.*toe_closest);
 
@@ -65,7 +68,7 @@ function [rho] = getsatpos(t,sv, eph)
         (-sin(Omega).*sin(omega)+cos(Omega).*cos(omega).*cos(i))...
         (-cos(Omega).*sin(i));...
         (sin(omega).*sin(i)) (cos(omega).*sin(i)) (cos(i))];
-    
+
     rho = R.*r;
     yuw=3+3;
 
