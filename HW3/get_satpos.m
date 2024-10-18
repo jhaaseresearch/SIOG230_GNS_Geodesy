@@ -62,7 +62,7 @@ function rho_e = get_satpos(t, sv, eph)
     
     %% Correct for orbital perturbations
     % Argument of perigee correction
-    omega = omega + Cuc * cos(2 * (omega + v)) + Cus * sin(2 * (omega + v));
+    omega_k = omega + Cuc * cos(2 * (omega + v)) + Cus * sin(2 * (omega + v));
     
     % Radial distance correction
     r = a * (1 - ecc * cos(E)) + Crc * cos(2 * (omega + v)) + Crs * sin(2 * (omega + v));
@@ -80,9 +80,9 @@ function rho_e = get_satpos(t, sv, eph)
                  0];
     
     %% Compute the rotation matrix R
-    R = [cos(Omega) * cos(omega) - sin(Omega) * sin(omega) * cos(i), -cos(Omega) * sin(omega) - sin(Omega) * cos(omega) * cos(i), sin(Omega) * sin(i);
-         sin(Omega) * cos(omega) + cos(Omega) * sin(omega) * cos(i), -sin(Omega) * sin(omega) + cos(Omega) * cos(omega) * cos(i), -cos(Omega) * sin(i);
-         sin(omega) * sin(i), cos(omega) * sin(i), cos(i)];
+    R = [cos(Omega) * cos(omega_k) - sin(Omega) * sin(omega_k) * cos(i), -cos(Omega) * sin(omega_k) - sin(Omega) * cos(omega_k) * cos(i), sin(Omega) * sin(i);
+         sin(Omega) * cos(omega_k) + cos(Omega) * sin(omega_k) * cos(i), -sin(Omega) * sin(omega_k) + cos(Omega) * cos(omega_k) * cos(i), -cos(Omega) * sin(i);
+         sin(omega_k) * sin(i), cos(omega_k) * sin(i), cos(i)];
     
     % Apply the rotation to the satellite position in the orbital plane
     rho_e = R * r_orbital;
