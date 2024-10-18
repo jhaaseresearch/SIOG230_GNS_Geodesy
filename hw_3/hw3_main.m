@@ -44,10 +44,19 @@ elseif task == 2.5
         +(rho(:,2)-reference_data(:,3)).^2 ...
         + (rho(:,3)-reference_data(:,4)).^2);
     plot(residual, 'LineWidth', 2);
+    old_labels = xticklabels;
+    num_label = size(xticklabels);
+    num_label = num_label(1);
+    new_labels = strings(1,num_label);
+    for ii= 1:num_label
+        new_label = round(0.25*str2num(old_labels{ii,1}),1);
+        new_labels(ii) = num2str(new_label);
+
+    end
     % new_labels = xticklabels*0.25
-    % xticklabels(new_labels);
+    xticklabels(new_labels);
     title("Comparison of ECEF coordinates by navigation message and from sp3 file for SV31");
-    xlabel("time of the day [s]");
+    xlabel("time of the day [hours]");
     ylabel("Norm of 3D residual position [m]");
     grid on
     saveas(gcf, 'comparison_ECEF_rho_sp3.png'); 
