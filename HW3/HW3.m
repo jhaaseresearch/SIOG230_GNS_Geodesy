@@ -49,3 +49,6 @@ xlabel("time (s)")
 ylabel("Norm Difference (mag_1 - mag_2) (m)")
 
 
+% Comments
+
+
