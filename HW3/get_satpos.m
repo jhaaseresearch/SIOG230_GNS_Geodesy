@@ -1,4 +1,4 @@
-function  xyz = get_satpos(t_data,sv,eph_all)
+function  [x,y,z] = get_satpos(t_data,sv,eph_all)
 
     %Parameters for the satellite
     eph_columns = eph_all(1, :) == sv;
@@ -8,11 +8,13 @@ function  xyz = get_satpos(t_data,sv,eph_all)
     trans_neg = eph(23, :) < 0;
     eph(:, trans_neg) = [];
 
-    N=size(eph, 2)
-    xyz = zeros(N, 3); 
+    %Find the closest time to t_data
+    diff = abs(eph(18,:) - t_data);
+    [~, ind] = min(diff);
+    closest_time = eph(18,ind);
 
-    for i = 1:size(eph, 2)
-%    for i = 1
+%    for i = 1:size(eph, 2) uncomment it when calculating for multiple times
+    for i = ind
         Mo = eph(3,i);
         roota = eph(4,i);
         deltan = eph(5,i);
@@ -100,6 +102,9 @@ function  xyz = get_satpos(t_data,sv,eph_all)
         % Convert to ECEF
         r_ecef = R * r_orbital_vector;
 
-        xyz(i, :) = r_ecef
+%        xyz(i, :) = r_ecef uncomment it when calculating for multiple times
+        x = r_ecef(1)
+        y = r_ecef(2)
+        z = r_ecef(3)
     end
 end

@@ -1,7 +1,9 @@
 
 
+%Exercise f - Check the program with t_data = 518400 and 603900
 eph_all =read_rinexn("epgga9.292")
 t_data=518400
+%t_data=603900
 sv=31
 
     %Parameters for the satellite
@@ -12,11 +14,17 @@ sv=31
     trans_neg = eph(23, :) < 0;
     eph(:, trans_neg) = [];
 
-    N=size(eph, 2)
-    xyz = zeros(N, 3); 
+%    N=size(eph, 2) uncomment it when calculating for multiple times
+%    xyz = zeros(N, 3); uncomment it when calculating for multiple times
 
-%    for i = 1
-    for i = 1:size(eph, 2)
+    %Find the closest time to t_data
+    diff = abs(eph(18,:) - t_data);
+    [~, ind] = min(diff);
+    closest_time = eph(18,ind);
+
+    for i = ind
+%    for i = 1:size(eph, 2) uncomment it when calculating for multiple
+%    times
         Mo = eph(3,i);
         roota = eph(4,i);
         deltan = eph(5,i);
@@ -104,6 +112,7 @@ sv=31
         % Convert to ECEF
         r_ecef = R * r_orbital_vector;
 
-        xyz(i, :)= r_ecef
+%        xyz(i, :)= r_ecef uncomment it when calculating for multiple times
+        xyz = r_ecef
     end
 
