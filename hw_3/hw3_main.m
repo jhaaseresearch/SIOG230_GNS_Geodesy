@@ -19,20 +19,20 @@ elseif task ==2
     % first with for loop than vectorized!
     % times = linspace(0,24*3600-1,96)';
     % t = [6;7];
-    % t = t*3600*24;
-    %rho = getsatpos(t, sv, eph)
+    t = 6*3600*24;
+    rho = getsatpos(t, sv, eph)
     
-    begin_epoch_interest = 518400;
-    end_epoch_interest = 603900;
-    time_del_steps = 15*60;
-    entries = (end_epoch_interest-begin_epoch_interest)/time_del_steps;
-    rho = zeros(3, entries);
-    i = 1;
-    for time = begin_epoch_interest:time_del_steps:end_epoch_interest 
-        rho(:,i) = getsatpos(time, sv, eph);
-        i = i+1;
-    end
-    save('rho.mat','rho')
+    % begin_epoch_interest = 518400;
+    % end_epoch_interest = 603900;
+    % time_del_steps = 15*60;
+    % entries = (end_epoch_interest-begin_epoch_interest)/time_del_steps;
+    % rho = zeros(3, entries);
+    % i = 1;
+    % for time = begin_epoch_interest:time_del_steps:end_epoch_interest 
+    %     rho(:,i) = getsatpos(time, sv, eph);
+    %     i = i+1;
+    % end
+    % save('rho.mat','rho')
 
 
 elseif task == 2.5
@@ -43,16 +43,28 @@ elseif task == 2.5
     residual = sqrt((rho(:,1)-reference_data(:,2)).^2 ...
         +(rho(:,2)-reference_data(:,3)).^2 ...
         + (rho(:,3)-reference_data(:,4)).^2);
-    plot(reference_data(:,1),residual, 'LineWidth', 2);
-    %xticklabels(reference_data(:,1));
+    plot(residual, 'LineWidth', 2);
+    % new_labels = xticklabels*0.25
+    % xticklabels(new_labels);
     title("Comparison of ECEF coordinates by navigation message and from sp3 file for SV31");
     xlabel("time of the day [s]");
     ylabel("Norm of 3D residual position [m]");
     grid on
     saveas(gcf, 'comparison_ECEF_rho_sp3.png'); 
+    absolute_diff_X = abs(rho(:,1)-reference_data(:,2));
+    absolute_diff_Y = abs(rho(:,2)-reference_data(:,3));
+    absolute_diff_Z = abs(rho(:,3)-reference_data(:,4));
+    % figure
+    % plot(absolute_diff_X)
+    % figure
+    % plot(absolute_diff_Y)
+    % figure
+    % plot(absolute_diff_Z)
 end
 
 % Taks 3)
-% The error, difference in a range of 350m seems 
-% quite big (wrong). This would be improved as soon as
-% more than one sv are used.  
+% The error, difference in a range of 350m is 
+% a facto 100 greater than the expected one 
+% (than it should be). There must be a mistake in 
+% my calculation of rho (probably in one variable)
+% that causes these additional 100m offset in all directions.
