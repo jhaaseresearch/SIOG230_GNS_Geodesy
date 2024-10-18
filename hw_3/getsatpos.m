@@ -4,7 +4,7 @@ function [rho] = getsatpos(t,sv, eph)
     
 
     %constants:
-    GM = 3.98600441831014;% m^3/(s^2);
+    GM = 3.986004418310e14;% m^3/(s^2);
     omegaE = 7.2921151467e-5;% rad/s
 
     %papameters from navigation file:
@@ -13,7 +13,7 @@ function [rho] = getsatpos(t,sv, eph)
     eph_sv = eph(:,sv_idx)
     
     toe = eph_sv(18,:);
-    t = t*3600*24;
+    
     del_toe_t = abs(toe-t);
     [min_val, idx] = min(del_toe_t);
     toe_closest = toe(idx);
@@ -39,7 +39,8 @@ function [rho] = getsatpos(t,sv, eph)
 
 
     %mean anomaly at t
-    mu = M0 + (sqrt(GM)./(roota.^3) + deltan) .* t_k;
+    mu = M0 + (sqrt(GM / a^3) + deltan) * t_k;
+    %mu = M0 + (sqrt(GM)./(roota.^3) + deltan) .* t_k;
     E = mu;
     tol = 1e-11;
     for k = 1:20
@@ -50,7 +51,9 @@ function [rho] = getsatpos(t,sv, eph)
             E = E_new;
         end
     end
-
+    disp(k)
+    disp('E is:')
+    disp(E)
     %true anomaly v
     v = atan2((sqrt(1-ecc.^2).*sin(E)), (cos(E)-ecc));%maybe have to flip y and x!!
     omega = omega0 + cuc.*cos(2.*(omega0 + v)) + cus.*sin(2.*(omega0 + v));
@@ -69,8 +72,7 @@ function [rho] = getsatpos(t,sv, eph)
         (-cos(Omega).*sin(i));...
         (sin(omega).*sin(i)) (cos(omega).*sin(i)) (cos(i))];
 
-    rho = R.*r;
-    yuw=3+3;
+    rho = R*r_coord;
 
 
 end
