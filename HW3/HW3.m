@@ -13,7 +13,7 @@
 [Y_max,Mmax,DoMmax,DoYmax,GPSWmax,DoGPSWmax,SoGPSW_max,JDmax,DecYmax] = gpsdate(2019,10,19,23,45,0)
 
 %Open Rinex file
-eph_all =read_rinexn("brdc2910.19n")
+eph_all =read_rinexn("brdc2920.19n")
 
 
 %Open SP3 file
