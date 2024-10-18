@@ -15,9 +15,13 @@ eph = eph(:,idx_prn);
 
 % Get tk = time elapsed since toe
 toe_arr = eph(18,:);
-[Min, Idx] = min(abs(t - toe_arr));
+% Need to find correct toe = time of ephemeris
+% toe should be as close to input t as possible
+[~, Idx] = min(abs(t - toe_arr));
+toe = eph(18,Idx);
+tk = t - toe;
 
-% Read in variables 
+% Read in variables at our chosen index = Idx
 svprn = eph(1,Idx);
 clock_drift_rate = eph(2,Idx);
 M0 = eph(3,Idx);
@@ -47,10 +51,12 @@ trans = eph(23,Idx);
 GM = 3.986004418*10^14;
 mu = M0 + (sqrt(GM)./(roota.^3) + deltan) .* tk;
 
+
 % Compute Eccentric Anomaly E
 tol = 1e-11;
 E0 = mu;
 E = mu + ecc .* sin(E0);
+
 while max(E - E0) > tol
     E0 = E;
     E = mu + ecc .* sin(E0);
@@ -80,6 +86,7 @@ omegae = 7.2921151467 * 1e-5; % mean angular vel of Earth, rad/s
 
 Omega = Omega0 + (Omegadot - omegae)*tk - omegae*toe;
 
+% Convert satellite position from orbital plane -> ECEF coords
 % Satellite position in orbital frame:
 rvec = [r.*cos(v); r.*sin(v); 0];
 % Rot matrix orbital frame -> ECEF frame:
@@ -87,7 +94,7 @@ R = [cos(Omega).*cos(omega) - sin(Omega).*sin(omega).*cos(inc), ...
     -cos(Omega).*sin(omega) - sin(Omega).*cos(omega).*cos(inc), ...
     sin(Omega).*sin(inc); ...
     sin(Omega).*cos(omega) + cos(Omega).*sin(omega).*cos(inc), ...
-    -sin(Omega).*cos(omega) - cos(Omega).*sin(omega).*cos(inc), ...
+    -sin(Omega).*sin(omega) + cos(Omega).*cos(omega).*cos(inc), ...
     -cos(Omega).*sin(inc); ...
     sin(omega).*sin(inc), ...
     cos(omega).*sin(inc), ...
