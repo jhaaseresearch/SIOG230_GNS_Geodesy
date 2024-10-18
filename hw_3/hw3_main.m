@@ -73,7 +73,11 @@ end
 
 % Taks 3)
 % The error, difference in a range of 350m is 
-% a facto 100 greater than the expected one 
+% a factor 100 greater than the expected one 
 % (than it should be). There must be a mistake in 
 % my calculation of rho (probably in one variable)
 % that causes these additional 100m offset in all directions.
+% It can be seeen that throughout 2.5 hours the difference
+% is getting greater and "reset" after 2.5 hours to then worsen again.
+% The overall trend of my result looks ok, but the foundt resisuals
+% are too big.
