@@ -52,15 +52,26 @@ GM = 3.986004418*10^14;
 mu = M0 + (sqrt(GM)./(roota.^3) + deltan) .* tk;
 
 
-% Compute Eccentric Anomaly E
-tol = 1e-11;
-E0 = mu;
-E = mu + ecc .* sin(E0);
+% % Compute Eccentric Anomaly E %%% WRONG - WHY?
+% tol = 1e-11;
+% E0 = mu;
+% E = mu + ecc .* sin(E0);
+% 
+% while max(E - E0) > tol
+%     E0 = E;
+%     E = mu + ecc .* sin(E0);
+% end
 
-while max(E - E0) > tol
-    E0 = E;
-    E = mu + ecc .* sin(E0);
+%% Iteratively solve for E (eccentric anomaly) with a convergence tolerance of 0.001
+E = mu;  % Start with E = µ
+for iter = 1:100000
+    E_new = mu + ecc * sin(E);  % Update equation
+    if abs(E_new - E) < 1e-11  % Convergence tolerance
+        break;
+    end
+    E = E_new;  % Update E
 end
+
 
 % Compute True Anomaly v
 v = atan2(sqrt(1-ecc.^2).*sin(E), cos(E)-ecc);
