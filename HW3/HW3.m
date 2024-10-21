@@ -34,16 +34,21 @@ rho_es = rho_es';
 % 96x3
 XYZ_sp3 = prn1_data(:,2:4);
 
-mag_sp3 = vecnorm(XYZ_sp3,2,2);
-mag_rho = vecnorm(rho_es,2,2);
+%mag_sp3 = vecnorm(XYZ_sp3,2,2);
+%mag_rho = vecnorm(rho_es,2,2);
+XYZ_diff = XYZ_sp3 - rho_es;
+
+% sum difference
+resid = sum(XYZ_diff.^2,2);
+
 
 % Taking size
-[M,N] = size(mag_rho);
+[M,N] = size(XYZ_sp3);
 
-diff = mag_sp3/M - mag_rho/M;
+%diff = mag_sp3/M - mag_rho/M;
 
 figure();
-plot(ts,diff,'-o');
+plot(ts,resid,'-o');
 title('Comparison of Difference magnitude for SP3 and Rho');
 xlabel("time (s)")
 ylabel("Norm Difference (mag_1 - mag_2) (m)")
