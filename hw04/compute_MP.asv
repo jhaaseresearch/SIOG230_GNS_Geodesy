@@ -1,0 +1,49 @@
+function [MP1_sv, MP2_sv, t_hrs] = compute_MP(obsfile, sv, f1, f2, range)
+
+% READ_RINEXO Compute MP1, MP2
+%
+% Input: obsfile = observation filename, str (e.g. '/products/opmt2920.19o')
+%        sv = PRN number of interest
+%        f1 = frequency of L1 [Hz = cycles/period]
+%        f2 = frequency of L2
+%               
+% Output: 
+%
+% Usage: [obs,t,prn,apr,hant] = read_rinexo(rinexo);
+
+[obs,t,gps,~,~] = ...
+    read_rinexo(obsfile);
+
+% Phase data (L1, L2) is in units of cycles of carrier phase
+L1 = obs.L1;
+L2 = obs.L2;
+% Pseudorange data in meters
+C1 = obs.C1;
+P1 = obs.P1;
+P2 = obs.P2;
+c = 0.299792458*1e9;
+lambda1 = c/f1;
+lambda2 = c/f2;
+alpha = (f1/f2)^2;
+
+% L1, L2 --> meters
+L1 = L1*lambda1;
+L2 = L2*lambda2;
+
+MP1 = P1 - (2/(alpha - 1) + 1) .* L1 + (2/(alpha - 1)) .* L2;
+MP2 = P2 - (2*alpha/(alpha-1)).*L1 + (2*alpha/(alpha-1) - 1) .* L2;
+
+% % Find MP1 MP2 for PRN=sv
+% % Demean over 
+
+idx_prn = find(gps == sv);
+MP1_sv = MP1(range, idx_prn);
+MP2_sv = MP2(range, idx_prn);
+
+t_hrs = t(range,4) + t(range,5)/60 + t(range,6)/3600;
+
+% Remove mean from MP1, MP2
+MP1_sv = MP1_sv - mean(MP1_sv(~isnan(MP1_sv)));
+MP2_sv = MP2_sv - mean(MP2_sv(~isnan(MP2_sv)));
+
+
