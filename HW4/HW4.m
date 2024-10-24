@@ -85,5 +85,21 @@ ylabel('MP2');
 grid on;
 
 
+%6-Discuss the results
 
+%I can observe that the MP1 and MP2 can achieve higher values like 2-4
+%meters and how they can vary on time. According to the Calais (2024), 
+% the noise can achieve 1-10 m for range measurements 
+% and less than 5 cm for phase measurements.
+% Based on the PRN3 results which is more continuous than PRN10, 
+%I observed that there is an interval time where the multipath error is
+%lower. This may due the satellites movement, so the multipath noise increase as the 
+% satellite zenith angle increases. 
 
+%7-Isn’t there an important additional noise term that is not modeled here and which, conse-
+%quently, is present in MP1 and MP2 as derived above?
+
+%We did not use a model to correct the troposphere. 
+%Moreover, we used the alpha parameter (based on the L1 and L2 frequency) instead of 
+%using a model to correct the ionospheric delay. 
+%
