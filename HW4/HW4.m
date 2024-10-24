@@ -23,7 +23,7 @@ rinex_file = 'opmt2920.19o';
 [obs,t,gps,apr,hant] = read_rinexo(rinex_file);
 
 % converting to datetime
-times = datetime(t(:,1)+2000,t(:,2),t(:,1),t(:,4),t(:,5),t(:,6));
+times = datetime(t(:,1)+2000,t(:,2),t(:,3),t(:,4),t(:,5),t(:,6));
 refTime= datetime(1900,1,1,0,0,0);
 
 % created reference time in seconds
