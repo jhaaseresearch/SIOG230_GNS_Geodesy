@@ -120,7 +120,8 @@ intereference and a better direct path
 7) The noise ambiguity was seen as a constant value which we take to be the
 mean of the MP1 and MP2 values which is why this was subtracted. Also, the
 Ionosphere was estimated using the frequency values but MP1 and MP2 could
-be better estimated with a model of the Ionosphere. 
+be better estimated with a model of the Ionosphere. We also do not have the
+Troposphere in our data which can play a role. 
 %}
 
 
