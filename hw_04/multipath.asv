@@ -1,0 +1,13 @@
+clear all
+close all
+clc
+
+%constants
+f1 = 1.57542 *109;% Hz
+f2 = 1.2276 * 109;% Hz
+c = 0.299792458 * 109;% m/s 
+lambda_1 = c/f1;
+lambda_2 = c/f2;
+
+= read_rinexo("opmt2920.19o");
+
