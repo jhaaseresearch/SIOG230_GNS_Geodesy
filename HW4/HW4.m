@@ -39,7 +39,7 @@ xlabel('Time (s)');
 ylabel('MP1');
 grid on;
 
-subplot(4, 1, 2);  % Create a subplot for Range_Diff
+subplot(4, 1, 2);  
 plot(time_vector, MP2, 'r-', 'LineWidth', 2);
 title('MP2 PRN3');
 xlabel('Time (s)');
@@ -77,7 +77,7 @@ xlabel('Time (s)');
 ylabel('MP1');
 grid on;
 
-subplot(4, 1, 4);  % Create a subplot for Range_Diff
+subplot(4, 1, 4);  
 plot(time_vector, MP2, 'r-', 'LineWidth', 2);
 title('MP2 PRN10');
 xlabel('Time (s)');
