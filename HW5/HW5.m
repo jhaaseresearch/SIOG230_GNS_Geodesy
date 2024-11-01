@@ -30,6 +30,7 @@ rixen_file = 'opmt2920.19o';
 %(=^.^=) current issue here
 %(")_(")
 brd_file = 'igs20756.sp3';
+brd_file = 'brdc2920.19n';
 
 %% 2. Read the pseudorange data 
 [obs,ts,gps,apr,hant] = read_rinexo(rixen_file);
@@ -37,12 +38,8 @@ brd_file = 'igs20756.sp3';
 % filtering eph data
 [eph, alpha, beta, dow] = read_rinexn(brd_file);
 
+% Assign variable for C1
 C1 = obs.C1;
-
-% initial guess for positions
-x0 = apr(1);
-y0 = apr(2);
-z0 = apr(3);
 
 % convert times to seconds
 timeDay = datetime(ts(:,1)+2000,ts(:,2),ts(:,3),ts(:,4),ts(:,5),ts(:,6));
@@ -59,6 +56,7 @@ ttx = timeSeconds - C1./c;
 % Satellites list, this was taken from the book. Using the first four
 prns = [2,6,12,14,24,25,29,32];
 % when using all Satellites, prns = gps;
+% prns = gps;
 
 % Find indexes
 for p = 1:length(prns)
@@ -75,9 +73,14 @@ C1 = C1(:,idx_prns);
 % Obtain number of time records
 T = length(ttx);
 
+% Creating matrix to hold variables at each time step
+% values
+% x0,y0,z0,delta,error,num satellites,iterationsvalid
+X = nan(T,7);
+
 % iterate overtime to make calculations
 start = 1;
-for ii = start:start + 2%T
+for ii = 1:T
     ttx_temp = ttx(ii,:);
     
     % Find positions without nan values in ttx_temp
@@ -86,10 +89,22 @@ for ii = start:start + 2%T
     
     % number of valid values
     num_real = length(idx_nn);
+
+    % establishing initial guess coordinates
+    x0 = apr(1);
+    y0 = apr(2);
+    z0 = apr(3);
+
+    % tolerance should be within 1m
+    tol = 1;
+    error = 5;
+    itr = 1;
     
     % If value is greater or equal to 4 then we can solve, if not we will
     % skip the record if not
     if num_real >= 4
+        
+
         % determine the Satellites to use
         svs = prns(idx_nn);
 
@@ -102,11 +117,6 @@ for ii = start:start + 2%T
         t_real = ttx(ii,idx_nn);
 
         C1_real = C1(ii,idx_nn);
-
-        % tolerance should be within 1m
-        tol = 1;
-        error = 5;
-        itr = 1;
 
         % using least squares to solve. 
         while (tol < error && itr <= 20)
@@ -132,6 +142,7 @@ for ii = start:start + 2%T
                 C1j = C1_real(idx_sv);
     
                 % Calculate l for Satellite j
+                % Multiplier is to avoid instabilities
                 lj = C1j - rho0j + c*deltaj;
     
                 % Calculate the constants for the matrix
@@ -147,19 +158,29 @@ for ii = start:start + 2%T
     
             % matrix A and l have been built, solving for x
             AT = A';
-            X = pinv(AT*A)*AT*l;
+            dX = pinv(AT*A)*AT*l;
     
             % Determine tolerance
-            error = sqrt((x0 - X(1))^2 + (y0 - X(1))^2 + (z0 - X(3))^2);
+            x0_new = x0 + dX(1);
+            y0_new = y0 + dX(2);
+            z0_new = z0 + dX(3);
+            delta = dX(4);
+            error = sqrt((x0 - x0_new)^2 + (y0 - y0_new)^2 + (z0 - z0_new)^2);
     
-            % Assigning new values
-            x0 = X(1);
-            y0 = X(2);
-            z0 = X(3);
+            % Assigning new values for gradient descent
+            x0 = x0 + dX(1);
+            y0 = y0 + dX(2);
+            z0 = z0 + dX(3);
 
-            disp(X)
         end
 
+    else
+        x0 = nan;
+        y0 = nan;
+        z0 = nan;
+        delta = nan;
     end
+
+    X(ii,:) = [x0 y0 z0 delta error num_real itr];
 end
 
