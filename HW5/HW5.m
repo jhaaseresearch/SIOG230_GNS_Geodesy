@@ -4,6 +4,10 @@
 Author: Tommy Stone
 Class: SIOG 239G
 Date: Fall 2024
+
+%(\___/)
+%(=^.^=) A matrix is correct but L is a little off, not sure why
+%(")_(")
 %}
 
 clear all; close all; clc;
@@ -23,23 +27,19 @@ theta_cutoff = 10; % degrees is cutoff angel for Satellite
 
 % File added from HW
 rixen_file = 'opmt2920.19o';
-
-
-%(\___/)
-%(=^.^=) Code is working but matrix verification is not correct, also the l
-%values are not correct 
-%(")_(")
-brd_file = 'igs20756.sp3';
 brd_file = 'brdc2920.19n';
 
 %% 2. Read the pseudorange data 
 [obs,ts,gps,apr,hant] = read_rinexo(rixen_file);
 
+% confirming with sp3 file
+[sp3,sv,excl_sat] = read_sp3('igs20756.sp3');
+
 % filtering eph data
 [eph, alpha, beta, dow] = read_rinexn(brd_file);
 
 % Assign variable for C1
-C1 = obs.C1;
+C1 = obs.P1;
 
 % convert times to seconds
 timeDay = datetime(ts(:,1)+2000,ts(:,2),ts(:,3),ts(:,4),ts(:,5),ts(:,6));
@@ -130,12 +130,36 @@ for ii = 1:T
                 sv = svs(idx_sv);
                 t = t_real(idx_sv);
                 
+                % testing to see if first iteration works
+                if ii == 1
+                        if sv == 2
+                            satpos = sp3.prn2(ii,2:end);
+                        elseif sv == 6
+                            satpos = sp3.prn6(ii,2:end);
+                        elseif sv == 12
+                            satpos = sp3.prn12(ii,2:end);
+                        elseif sv == 14
+                            satpos = sp3.prn14(ii,2:end);
+                        elseif sv == 24
+                            satpos = sp3.prn24(ii,2:end);
+                        elseif sv == 25
+                            satpos = sp3.prn25(ii,2:end);
+                        elseif sv == 29
+                            satpos = sp3.prn29(ii,2:end);
+                        elseif sv == 32
+                            satpos = sp3.prn32(ii,2:end);
+                        end
+                else
                 % [X Y Z dt toe drel]
-                satpos = get_satpos(t,sv,eph,3);
+                    satpos = get_satpos(t,sv,eph,3);
+                end
                 xj = satpos(1);
                 yj = satpos(2);
                 zj = satpos(3);
                 deltaj = satpos(4);       % Satellite clock bias
+
+                % calling object with sp3 file
+                
     
                 % Determining constants required to build matrix for each
                 % Satellite
@@ -196,12 +220,10 @@ for ii = 1:T
     INFO(ii,:) = [delta x0 y0 z0 error num_real itr];
 end
 
-[sp3,sv,excl_sat] = read_sp3('igs20756.sp3');
-
-% confirming values for Satellite 2
-disp(sp3.prn2(1,:))
-
 deltas = INFO(:,1);
 X = INFO(:,2:4);
 
-A_store
+sprintf("Value for first A")
+disp(A_store)
+sprintf("Value for first B")
+disp(l_store)
