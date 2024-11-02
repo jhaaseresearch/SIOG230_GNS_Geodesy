@@ -54,18 +54,15 @@ timeSeconds = seconds(timeDay - refTime);
 ttx = timeSeconds - C1./c;
 
 % Satellites list, this was taken from the book. Using the first four
-prns = [2,6,12,14,24,25,29,32];
+%prns = [2,6,12,14,24,25,29,32];
 % when using all Satellites, prns = gps;
-% prns = gps;
+prns = gps;
 
 % Find indexes
 for p = 1:length(prns)
     idx_prns(p) = find(gps == prns(p));
 end
 
-% x0 = apr(1);
-% y0 = apr(2);
-% z0 = apr(3);
 % filtering for Satellite positions
 % over time we can get rid of this and use all Satellite positions
 ttx = ttx(:,idx_prns);
@@ -74,6 +71,9 @@ C1 = C1(:,idx_prns);
 %% 
 % Obtain number of time records
 T = length(ttx);
+
+% initializing storage for Cxs
+Cxs = nan([T,4,4]);
 
 % Creating matrix to hold variables at each time step
 % values
@@ -184,7 +184,7 @@ for ii = 1:T
     
             % Computing least square solution
             AT = A';
-            Cx = pinv(AT*A);      % covaraince matrix of unknowns
+            Cx = pinv(AT*A);      % covaraince matrix of unknowns            
             dX = Cx*AT*l;
     
             % Determine tolerance
@@ -204,6 +204,7 @@ for ii = 1:T
 
     % saving nan values in area where we cannot use least squares to solve
     else
+        Cx = nan([4,4]);
         x0 = nan;
         y0 = nan;
         z0 = nan;
@@ -215,6 +216,9 @@ for ii = 1:T
         A_store = A;
         l_store = l;
     end
+
+    % Storing the gradient for later use 
+    Cxs(ii,:,:) = Cx;
 
     % storing data for information
     INFO(ii,:) = [delta x0 y0 z0 error num_real itr];
