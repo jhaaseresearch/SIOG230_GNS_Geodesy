@@ -24,10 +24,10 @@ theta_cutoff = 10; % degrees is cutoff angel for Satellite
 % File added from HW
 rixen_file = 'opmt2920.19o';
 
-% Unsure about where the data is being read for for the Satellite
-% clock bias. Currently getting an error
+
 %(\___/)
-%(=^.^=) current issue here
+%(=^.^=) Code is working but matrix verification is not correct, also the l
+%values are not correct 
 %(")_(")
 brd_file = 'igs20756.sp3';
 brd_file = 'brdc2920.19n';
@@ -63,7 +63,9 @@ for p = 1:length(prns)
     idx_prns(p) = find(gps == prns(p));
 end
 
-
+% x0 = apr(1);
+% y0 = apr(2);
+% z0 = apr(3);
 % filtering for Satellite positions
 % over time we can get rid of this and use all Satellite positions
 ttx = ttx(:,idx_prns);
@@ -75,8 +77,8 @@ T = length(ttx);
 
 % Creating matrix to hold variables at each time step
 % values
-% x0,y0,z0,delta,error,num satellites,iterationsvalid
-X = nan(T,7);
+% delta,x0,y0,z0,error,num satellites,iterationsvalid
+INFO = nan(T,7);
 
 % iterate overtime to make calculations
 start = 1;
@@ -96,7 +98,7 @@ for ii = 1:T
     z0 = apr(3);
 
     % tolerance should be within 1m
-    tol = 1;
+    tol = 0.5;
     error = 5;
     itr = 1;
     
@@ -113,9 +115,8 @@ for ii = 1:T
 
         l = nan([num_real,1]);
         
-        % get the time component
+        % get the time component for each
         t_real = ttx(ii,idx_nn);
-
         C1_real = C1(ii,idx_nn);
 
         % using least squares to solve. 
@@ -123,7 +124,8 @@ for ii = 1:T
 
             itr = itr + 1;
 
-            % iterate through each Satellite to get the position
+            % iterate through each Satellite 
+            % to build matrix A and l
             for idx_sv = 1:length(svs)
                 sv = svs(idx_sv);
                 t = t_real(idx_sv);
@@ -156,9 +158,10 @@ for ii = 1:T
                 l(idx_sv) = lj;
             end
     
-            % matrix A and l have been built, solving for x
+            % Computing least square solution
             AT = A';
-            dX = pinv(AT*A)*AT*l;
+            Cx = pinv(AT*A);      % covaraince matrix of unknowns
+            dX = Cx*AT*l;
     
             % Determine tolerance
             x0_new = x0 + dX(1);
@@ -168,19 +171,37 @@ for ii = 1:T
             error = sqrt((x0 - x0_new)^2 + (y0 - y0_new)^2 + (z0 - z0_new)^2);
     
             % Assigning new values for gradient descent
-            x0 = x0 + dX(1);
-            y0 = y0 + dX(2);
-            z0 = z0 + dX(3);
+            x0 = x0_new;
+            y0 = y0_new;
+            z0 = z0_new;
 
         end
 
+
+    % saving nan values in area where we cannot use least squares to solve
     else
         x0 = nan;
         y0 = nan;
         z0 = nan;
         delta = nan;
     end
+    % matrix A and l have been built, solving for x
+    if ii == 1
+        % Storing values for comparison with HW at epoch 0:00
+        A_store = A;
+        l_store = l;
+    end
 
-    X(ii,:) = [x0 y0 z0 delta error num_real itr];
+    % storing data for information
+    INFO(ii,:) = [delta x0 y0 z0 error num_real itr];
 end
 
+[sp3,sv,excl_sat] = read_sp3('igs20756.sp3');
+
+% confirming values for Satellite 2
+disp(sp3.prn2(1,:))
+
+deltas = INFO(:,1);
+X = INFO(:,2:4);
+
+A_store
