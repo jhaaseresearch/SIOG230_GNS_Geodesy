@@ -39,7 +39,7 @@ brd_file = 'brdc2920.19n';
 [eph, alpha, beta, dow] = read_rinexn(brd_file);
 
 % Assign variable for C1
-C1 = obs.P1;
+C1 = obs.C1;
 
 % convert times to seconds
 timeDay = datetime(ts(:,1)+2000,ts(:,2),ts(:,3),ts(:,4),ts(:,5),ts(:,6));
