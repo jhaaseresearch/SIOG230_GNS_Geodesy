@@ -54,9 +54,9 @@ timeSeconds = seconds(timeDay - refTime);
 ttx = timeSeconds - C1./c;
 
 % Satellites list, this was taken from the book. Using the first four
-%prns = [2,6,12,14,24,25,29,32];
+prns = [2,6,12,14,24,25,29,32];
 % when using all Satellites, prns = gps;
-prns = gps;
+%prns = gps;
 
 % Find indexes
 for p = 1:length(prns)
@@ -74,6 +74,18 @@ T = length(ttx);
 
 % initializing storage for Cxs
 Cxs = nan([T,4,4]);
+% Initializing R and Cxyz matrix
+Cxyz = nan([T,3,3]);
+R = nan([T,3,3]);
+Cl = nan([T,3,3]);
+
+% initializing dop values
+vdops = nan([T,1]);
+hdops = nan([T,1]);
+pdops = nan([T,1]);
+tdops = nan([T,1]);
+gdops = nan([T,1]);
+
 
 % Creating matrix to hold variables at each time step
 % values
@@ -220,10 +232,13 @@ for ii = 1:T
     % Storing the gradient for later use 
     Cxs(ii,:,:) = Cx;
 
+    Cxyz(ii,:,:) = Cx(1:3,1:3);
+
     % storing data for information
     INFO(ii,:) = [delta x0 y0 z0 error num_real itr];
 end
 
+% Taking data out of matrix
 deltas = INFO(:,1);
 X = INFO(:,2:4);
 
@@ -231,3 +246,67 @@ sprintf("Value for first A")
 disp(A_store)
 sprintf("Value for first B")
 disp(l_store)
+
+% Now solving for the DOPs latitude and longitude of each point
+%
+% r = sqrt(x0^2 + y0^2 + z0^2)
+% theta = tan-1(y/x)
+% phi = arccos(z/r)
+
+% Solving for R, lambda and phi at each coordinate
+for ii = 1:T
+    nan_entries = sum(isnan(X(ii,:)));
+
+    if nan_entries == 0
+        r = norm(X(ii,:));
+        lambda = atand(X(ii,2)/X(ii,1));  % in degrees
+        phi = acosd(X(ii,3)/r);        % in degrees
+
+        r11 = -sind(phi)*cosd(lambda);
+        r12 = -sind(phi)*sind(lambda);
+        r13 = cosd(phi);
+
+        r21 = -sind(lambda);
+        r22 = cosd(lambda);
+        r23 = 0;
+
+        r31 = cosd(phi)*cosd(lambda);
+        r32 = cosd(phi)*sind(lambda);
+        r33 = sin(phi);
+
+        R(ii,:,:) = [r11 r12 r13;...
+                    r21 r22 r23;...
+                    r31 r32 r33];
+    else
+        r = nan;
+        lambda = nan;
+        phi = nan;
+    end
+
+    R_temp = reshape(R(ii,:,:),[3,3]);
+    C_xyz_temp = reshape(Cxyz(ii,:,:),[3,3]);
+    R_temp_T = reshape(R(ii,:,:),[3,3]);
+    R_temp_T = R_temp_T';
+
+    Cl_temp = R_temp*C_xyz_temp*R_temp_T;
+
+    Cl(ii,:,:) = Cl_temp;
+
+    % Defining DOPs values
+    Cl_diag = diag(Cl_temp);
+    sigma_n = Cl_diag(1);      % Each value is squared
+    sigma_e = Cl_diag(2);
+    sigma_u = Cl_diag(3);
+    sigma_t = Cxs(ii,4,4);
+
+
+    % Determining values for DOPs
+    vdops(ii,1) = sqrt(sigma_u);
+    hdops(ii,1) = sqrt(sigma_n + sigma_e);
+    pdops(ii,1) = sqrt(sigma_n + sigma_e + sigma_u);
+    tdops(ii,1) = sqrt(sigma_t);
+    gdops(ii,1) = sqrt(sigma_n + sigma_e + sigma_u + sigma_t);
+end
+
+
+
