@@ -25,7 +25,7 @@ time_s = seconds(time_day - time_ref);
 rx_clock_bias_0 = 1;
 xyz_del_0 = [apr rx_clock_bias_0];
 number_unknowns = length(xyz_del_0);
-x_prev = [0 0 0 nan];
+x_prev = [0 0 0];
 
 %first step only C1
 C1 = obs.C1;
@@ -35,28 +35,25 @@ number_of_satellites = width(C1);
 result_matrix = zeros(number_of_timepoints, 4);
 %later: compare solutions using C1, P1, and P2
 
-for timepoint = 1:1%number_of_timepoints
+for timepoint = 1:number_of_timepoints
     row_C1 = C1(timepoint,:);
     svs_at_timepoint = find(~isnan(row_C1));
     number_svs_at_timepoint = length(svs_at_timepoint);
     if(number_svs_at_timepoint < 5)
-        disp('too few satellites at this timepoint to solve for rx position and clock bias')
+        disp('too few satellites at this timepoint to solve for x')
         result_matrix(timepoint, : ) = nan(1, 4);
         disp('Continue with next timepoint!')
     else
-        iteration = 1;
-        while(~(abs(xyz_del_0(1:3) - x_prev(1:3)) < 1))
-            % disp('Accuracy of position converged to less than 1m!')
-            % disp(x_0);
-            % disp('Continue with next timepoint!')
-            % %hop to next timepoint
-            % break
-        % else
-            disp('Keep improving rx position and clock bias for this timepoint!')
+        if ((xyz_del_0(1:3) - x_prev) < 1)
+            disp('Accuracy of position converged to less than 1m!')
+            disp(x_0);
+            disp('Continue with next timepoint!')
+            %hop to next timepoint
+            break
+        else
+            disp('Keep improving x for this timepoint!')
             A_1 = zeros(number_svs_at_timepoint, number_unknowns-1);
-            %prevent numerical instabilities: use c *10^-9: get rx clock
-            %bias in ns! - > instabilities got even worse
-            c_vector = 1e-9*c.*ones(number_svs_at_timepoint, 1); 
+            c_vector = c.*ones(number_svs_at_timepoint, 1);
             A = [A_1 c_vector];
             l = zeros(number_svs_at_timepoint, 1);
             row_of_A = 1;
@@ -72,6 +69,7 @@ for timepoint = 1:1%number_of_timepoints
                 residual = satpos(1:3) - xyz_del_0(1:3)';
                 %calculate rho_0
                 rho_0 = sqrt(sum((residual).^2));
+                disp('test')
                 
                 % %calculate elements of A for this satellite:
                 % %jaX
@@ -84,25 +82,11 @@ for timepoint = 1:1%number_of_timepoints
             end
 
             %solve for array of four unknowns
-            x_prev = xyz_del_0;
-            xyz_del_0 = (pinv(A)*l)';
-            
-            if (iteration == 50)
-                disp("The solution for the receiver position doesn't converge at this timepoint")
-                disp("difference between this and previous position:")
-                disp(abs(xyz_del_0(1:3) - x_prev(1:3)))
-                result_matrix(timepoint, : ) = nan(1, 4);
-                break
-            end
-            iteration = iteration + 1;
+            new = pinv(A)*l;
+            disp('tst')
+
         end
-        if(abs(xyz_del_0(1:3) - x_prev(1:3)) < 1)
-            disp("solution converged to")
-            disp(xyz_del_0)
-            disp("difference between this and previous position:")
-            disp(abs(xyz_del_0(1:3) - x_prev(1:3)))
-            result_matrix(timepoint, : ) = xyz_del_0;
-        end
+
     end
     
 end

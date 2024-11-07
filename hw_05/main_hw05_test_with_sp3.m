@@ -12,7 +12,7 @@ c = 2.99792458e8;
 [eph,alpha,beta,dow] = read_rinexn("brdc2910.19n");
 
 %Reading observation data: OBS
-[obs,t,gps,apr,hant] = read_rinexo("opmt2920.19o");
+[obs,t,prn,apr,hant] = read_rinexo("opmt2920.19o");
 
 % %find the time in seconds:
 % time_day = datetime(t(:,1)+2000,t(:,2),t(:,3),t(:,4),t(:,5),t(:,6));
@@ -22,7 +22,8 @@ c = 2.99792458e8;
 t = t*3600*24;
 [sp3,sv_sp3,bad_sat] = read_sp3('igs20756.sp3');
 row_C1 = obs.C1(1,:); %for epoch 00:15:00.0 -> timepoint: evey 30s -> 15min -> timepoint 30/31
-svs_at_timepoint = find(~isnan(row_C1));
+idx_svs_at_timepoint = find(~isnan(row_C1));
+svs_at_timepoint = prn(idx_svs_at_timepoint);
 number_svs_at_timepoint = length(svs_at_timepoint);
 return
 %The a priori position of the receiver in ECEF frame (in meters) is 
