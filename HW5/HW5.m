@@ -54,9 +54,9 @@ timeSeconds = seconds(timeDay - refTime);
 ttx = timeSeconds - C1./c;
 
 % Satellites list, this was taken from the book. Using the first four
-prns = [2,6,12,14,24,25,29,32];
+%prns = [2,6,12,14,24,25,29,32];
 % when using all Satellites, prns = gps;
-%prns = gps;
+prns = gps;
 
 % Find indexes
 for p = 1:length(prns)
@@ -247,6 +247,27 @@ end
 % Taking data out of matrix
 deltas = INFO(:,1);
 X = INFO(:,2:4);
+
+% plotting the data
+figure()
+subplot(3,1,1);
+plot(timeDay, X(:,1));
+title("XYZ position of Receiver")
+ylabel("X position (m)")
+grid();
+hold on;
+subplot(3,1,2);
+plot(timeDay, X(:,2));
+ylabel("Y position (m)")
+grid();
+hold on;
+subplot(3,1,3);
+plot(timeDay, X(:,3));
+ylabel("Z position (m)")
+xlabel("Time")
+grid();
+
+
 
 sprintf("Value for first A after convergence")
 disp(A_store)
