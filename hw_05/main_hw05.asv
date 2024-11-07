@@ -37,7 +37,7 @@ number_of_satellites = width(C1);
 result_matrix = zeros(number_of_timepoints, 4);
 %later: compare solutions using C1, P1, and P2
 
-for timepoint = 1:number_of_timepoints
+for timepoint = 1:1%number_of_timepoints
     row_C1 = C1(timepoint,:);
     idx_svs_at_timepoint = find(~isnan(row_C1));
     svs_at_timepoint = prn(idx_svs_at_timepoint);
@@ -78,10 +78,9 @@ for timepoint = 1:number_of_timepoints
             end
 
             %solve for array of four unknowns
-            x_prev = xyz_del_0;
             xyz_del_approx = (pinv(A)*l)'; %xyz_del_approx = [ delX delY delZ delta]
-            xyz_del_0 = xyz_del_approx + [x_prev(1:3) 0];% new x0 = [x0+delX y0+delY z0+delZ delta]
-            
+            xyz_del_0 = xyz_del_approx + [x_prev(1:3) 0];% new x0 = [x]
+            x_prev = xyz_del_0;
             
             if (iteration == 50)
                 disp("The solution for the receiver position doesn't converge at this timepoint")
