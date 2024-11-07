@@ -112,7 +112,7 @@ for ii = 1:T
     % tolerance should be within 1m
     tol = 0.5;
     error = 5;
-    itr = 1;
+    itr = 0;
     
     % If value is greater or equal to 4 then we can solve, if not we will
     % skip the record if not
@@ -141,9 +141,15 @@ for ii = 1:T
             for idx_sv = 1:length(svs)
                 sv = svs(idx_sv);
                 t = t_real(idx_sv);
+
+                t = t + 3600*24*6;
                 
                 % testing to see if first iteration works
-                if ii == 1
+                %if ii == 1
+                % This code is for testing initially with sp3
+                % we do not need this now that the code is working
+                % I am leaving just in case though
+                if 0 == 1
                         if sv == 2
                             satpos = sp3.prn2(ii,2:end);
                         elseif sv == 6
@@ -193,7 +199,7 @@ for ii = 1:T
                 A(idx_sv,:) = [axj ayj azj -c*10^(-9)];
                 l(idx_sv) = lj;
             end
-    
+
             % Computing least square solution
             AT = A';
             Cx = pinv(AT*A);      % covaraince matrix of unknowns            
@@ -242,9 +248,9 @@ end
 deltas = INFO(:,1);
 X = INFO(:,2:4);
 
-sprintf("Value for first A")
+sprintf("Value for first A after convergence")
 disp(A_store)
-sprintf("Value for first B")
+sprintf("Value for first L after convergence")
 disp(l_store)
 
 % Now solving for the DOPs latitude and longitude of each point
