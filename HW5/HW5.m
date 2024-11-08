@@ -5,9 +5,6 @@ Author: Tommy Stone
 Class: SIOG 239G
 Date: Fall 2024
 
-%(\___/)
-%(=^.^=) A matrix is correct but L is a little off, not sure why
-%(")_(")
 %}
 
 clear all; close all; clc;
@@ -204,6 +201,12 @@ for ii = 1:T
             AT = A';
             Cx = pinv(AT*A);      % covaraince matrix of unknowns            
             dX = Cx*AT*l;
+
+            % Storring l value to confirm if it works compared to 
+            % values in book
+            if itr == 1
+                l_store = l;
+            end
     
             % Determine tolerance
             x0_new = x0 + dX(1);
@@ -232,7 +235,6 @@ for ii = 1:T
     if ii == 1
         % Storing values for comparison with HW at epoch 0:00
         A_store = A;
-        l_store = l;
     end
 
     % Storing the gradient for later use 
@@ -268,11 +270,11 @@ xlabel("Time")
 grid();
 
 
-
+% Displaying values to confirm with book
 sprintf("Value for first A after convergence")
-disp(A_store)
+disp(round(A_store,4))
 sprintf("Value for first L after convergence")
-disp(l_store)
+disp(round(l_store,2))
 
 % Now solving for the DOPs latitude and longitude of each point
 %
