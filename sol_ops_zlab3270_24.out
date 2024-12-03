@@ -1,0 +1,305 @@
+FILE: zlab3270.24o OP1733187559227
+
+                              NGS OPUS SOLUTION REPORT
+                              ========================
+
+All computed coordinate accuracies are listed as peak-to-peak values.
+For additional information: https://urldefense.com/v3/__https://www.ngs.noaa.gov/OPUS/about.jsp*accuracy__;Iw!!Mih3wA!GMOz61EyvqztTiVkCH7z6fwWhzhXcKuOj8EMWF-85bI9B7El340Im62VPMDPu2zg2j2jiQAu5k5SzxAmZrqieNM$
+
+      USER: rgarciagonzalez@ucsd.edu                 DATE: December 03, 2024
+RINEX FILE: zlab327b.24o                             TIME: 01:00:15 UTC
+
+
+  SOFTWARE: page5  2008.25 master275.pl 160321      START: 2024/11/22  01:14:00
+ EPHEMERIS: igr23415.eph [rapid]                     STOP: 2024/11/22  23:59:00
+  NAV FILE: brdc3270.24n                         OBS USED: 47137 / 51317   :  92%
+  ANT NAME: TRM41249.00     NONE              # FIXED AMB:   223 /   244   :  91%
+ARP HEIGHT: 0.0563                            OVERALL RMS: 0.016(m)
+
+
+ REF FRAME: NAD_83(2011)(EPOCH:2010.0000)              ITRF2014 (EPOCH:2024.8921)
+
+         X:     -2455551.393(m)   0.006(m)          -2455552.610(m)   0.006(m)
+         Y:     -4767164.747(m)   0.003(m)          -4767163.002(m)   0.003(m)
+         Z:      3441690.814(m)   0.003(m)           3441690.965(m)   0.003(m)
+
+       LAT:   32 52  5.48321      0.003(m)        32 52  5.50481      0.003(m)
+     E LON:  242 44 49.73399      0.006(m)       242 44 49.66163      0.006(m)
+     W LON:  117 15 10.26601      0.006(m)       117 15 10.33837      0.006(m)
+    EL HGT:            2.143(m)   0.001(m)                 1.390(m)   0.001(m)
+ ORTHO HGT:           37.141(m)   0.044(m) [NAVD88 (Computed using GEOID18)]
+
+                        UTM COORDINATES    STATE PLANE COORDINATES
+                         UTM (Zone 11)         SPC (0406 CA 6)
+Northing (Y) [meters]     3636702.932           578252.163
+Easting (X)  [meters]      476344.560          1906143.852
+Convergence  [degrees]    -0.13722500          -0.55108333
+Point Scale                0.99960690           0.99998696
+Combined Factor            0.99960656           0.99998662
+
+US NATIONAL GRID DESIGNATOR: 11SMS7634536703(NAD 83)
+
+
+                              BASE STATIONS USED
+PID       DESIGNATION                        LATITUDE    LONGITUDE DISTANCE(m)
+DH4107 P473 JAMACHA_LFCS2004 CORS GRP      N324401.580 W1165658.206   32086.6
+DN5658 P475 POINT_LOMACS2007 CORS GRP      N323959.011 W1171438.117   22395.0
+DH4104 P472 CAMPELLIOTCS2004 CORS GRP      N325321.139 W1170616.853   14061.2
+
+                 NEAREST NGS PUBLISHED CONTROL POINT
+DC2121      SCRIPPS                        N325203.980 W1171508.369      67.6
+
+
+
+
+                          BASE STATION INFORMATION
+
+ STATION NAME: p473  a    6 (Jamacha_LFCS2004; Jamacha, California  United Stat
+  MONUMENT: NO DOMES NUMBER
+ XYZ  -2434009.5280  -4787436.2120   3429261.7430  MON @ 2010.0000 (M)
+ XYZ        -0.0312         0.0280         0.0143  VEL (M/YR)
+ NEU        -0.0000         0.0000         0.0083  MON TO ARP (M)
+ NEU        -0.0017         0.0017         0.0857  ARP TO L1 PHASE CENTER (M)
+ NEU        -0.0022         0.0008         0.1166  ARP TO L2 PHASE CENTER (M)
+ XYZ        -0.4651         0.4174         0.2126  VEL TIMES 14.8929 YRS
+ XYZ        -0.0032        -0.0062         0.0045  MON TO ARP
+ XYZ        -0.0316        -0.0658         0.0449  ARP TO L1 PHASE CENTER
+ XYZ  -2434010.0279  -4787435.8667   3429262.0050  L1 PHS CEN @ 2024.8921
+ XYZ         0.0000         0.0000         0.0000  + XYZ ADJUSTMENTS
+ XYZ  -2434010.0279  -4787435.8667   3429262.0050  NEW L1 PHS CEN @ 2024.8921
+ XYZ  -2434009.9963  -4787435.8009   3429261.9601  NEW ARP @ 2024.8921
+ XYZ  -2434009.9931  -4787435.7946   3429261.9556  NEW MON @ 2024.8921
+ LLH  32 44  1.60171  243  3  1.72081    188.6364  NEW L1 PHS CEN @ 2024.8921
+ LLH  32 44  1.60176  243  3  1.72074    188.5507  NEW ARP @ 2024.8921
+ LLH  32 44  1.60176  243  3  1.72074    188.5424  NEW MON @ 2024.8921
+
+ STATION NAME: p475  a    2 (Point_LomaCS2007; San Diego, CA  USA)
+  MONUMENT: NO DOMES NUMBER
+ XYZ  -2460343.7288  -4778294.9907   3422858.1379  MON @ 2010.0000 (M)
+ XYZ        -0.0315         0.0286         0.0155  VEL (M/YR)
+ NEU        -0.0000         0.0000         0.0083  MON TO ARP (M)
+ NEU         0.0006         0.0019         0.0866  ARP TO L1 PHASE CENTER (M)
+ NEU        -0.0003         0.0008         0.1174  ARP TO L2 PHASE CENTER (M)
+ XYZ        -0.4687         0.4253         0.2310  VEL TIMES 14.8929 YRS
+ XYZ        -0.0032        -0.0062         0.0045  MON TO ARP
+ XYZ        -0.0316        -0.0654         0.0473  ARP TO L1 PHASE CENTER
+ XYZ  -2460344.2322  -4778294.6370   3422858.4207  L1 PHS CEN @ 2024.8921
+ XYZ        -0.0000         0.0000         0.0000  + XYZ ADJUSTMENTS
+ XYZ  -2460344.2322  -4778294.6370   3422858.4207  NEW L1 PHS CEN @ 2024.8921
+ XYZ  -2460344.2007  -4778294.5716   3422858.3734  NEW ARP @ 2024.8921
+ XYZ  -2460344.1975  -4778294.5654   3422858.3689  NEW MON @ 2024.8921
+ LLH  32 39 59.03285  242 45 21.80950    -24.9650  NEW L1 PHS CEN @ 2024.8921
+ LLH  32 39 59.03283  242 45 21.80943    -25.0516  NEW ARP @ 2024.8921
+ LLH  32 39 59.03283  242 45 21.80943    -25.0599  NEW MON @ 2024.8921
+
+ STATION NAME: p472  a    7 (CampElliotCS2004; San Diego, California, United St
+  MONUMENT: NO DOMES NUMBER
+ XYZ  -2442691.5420  -4772473.3710   3443722.1940  MON @ 2010.0000 (M)
+ XYZ        -0.0307         0.0278         0.0142  VEL (M/YR)
+ NEU        -0.0000         0.0000         0.0083  MON TO ARP (M)
+ NEU         0.0006         0.0019         0.0866  ARP TO L1 PHASE CENTER (M)
+ NEU        -0.0003         0.0008         0.1174  ARP TO L2 PHASE CENTER (M)
+ XYZ        -0.4576         0.4143         0.2112  VEL TIMES 14.8929 YRS
+ XYZ        -0.0032        -0.0062         0.0045  MON TO ARP
+ XYZ        -0.0313        -0.0653         0.0475  ARP TO L1 PHASE CENTER
+ XYZ  -2442692.0341  -4772473.0282   3443722.4572  L1 PHS CEN @ 2024.8921
+ XYZ         0.0000         0.0000         0.0000  + XYZ ADJUSTMENTS
+ XYZ  -2442692.0341  -4772473.0282   3443722.4572  NEW L1 PHS CEN @ 2024.8921
+ XYZ  -2442692.0028  -4772472.9629   3443722.4097  NEW ARP @ 2024.8921
+ XYZ  -2442691.9996  -4772472.9567   3443722.4052  NEW MON @ 2024.8921
+ LLH  32 53 21.16088  242 53 43.07400    137.9240  NEW L1 PHS CEN @ 2024.8921
+ LLH  32 53 21.16086  242 53 43.07393    137.8374  NEW ARP @ 2024.8921
+ LLH  32 53 21.16086  242 53 43.07393    137.8291  NEW MON @ 2024.8921
+
+                         REMOTE STATION INFORMATION
+
+ STATION NAME: zlab       1
+  MONUMENT: NO DOMES NUMBER
+ XYZ  -2455552.7508  -4767163.2785   3441691.2060  MON @ 2024.8909 (M)
+ NEU        -0.0003        -0.0005         0.0563  MON TO ARP (M)
+ NEU         0.0003         0.0005         0.0559  ARP TO L1 PHASE CENTER (M)
+ NEU         0.0001         0.0005         0.0580  ARP TO L2 PHASE CENTER (M)
+ XYZ        -0.0222        -0.0419         0.0303  MON TO ARP
+ XYZ        -0.0210        -0.0418         0.0306  ARP TO L1 PHASE CENTER
+ XYZ  -2455552.7940  -4767163.3623   3441691.2669  L1 PHS CEN @ 2024.8921
+
+ BASELINE NAME:   p473  zlab
+ XYZ         0.1391         0.2755        -0.2424  + XYZ ADJUSTMENTS
+ XYZ  -2455552.6549  -4767163.0868   3441691.0245  NEW L1 PHS CEN @ 2024.8921
+ XYZ  -2455552.6339  -4767163.0449   3441690.9939  NEW ARP @ 2024.8921
+ XYZ  -2455552.6117  -4767163.0030   3441690.9636  NEW MON @ 2024.8921
+ LLH  32 52  5.50476  242 44 49.66159      1.5030  NEW L1 PHS CEN @ 2024.8921
+ LLH  32 52  5.50475  242 44 49.66157      1.4471  NEW ARP @ 2024.8921
+ LLH  32 52  5.50476  242 44 49.66159      1.3908  NEW MON @ 2024.8921
+
+ BASELINE NAME:   p475  zlab
+ XYZ         0.1390         0.2779        -0.2405  + XYZ ADJUSTMENTS
+ XYZ  -2455552.6549  -4767163.0844   3441691.0264  NEW L1 PHS CEN @ 2024.8921
+ XYZ  -2455552.6339  -4767163.0426   3441690.9958  NEW ARP @ 2024.8921
+ XYZ  -2455552.6118  -4767163.0006   3441690.9655  NEW MON @ 2024.8921
+ LLH  32 52  5.50485  242 44 49.66155      1.5023  NEW L1 PHS CEN @ 2024.8921
+ LLH  32 52  5.50484  242 44 49.66153      1.4464  NEW ARP @ 2024.8921
+ LLH  32 52  5.50485  242 44 49.66155      1.3901  NEW MON @ 2024.8921
+
+ BASELINE NAME:   p472  zlab
+ XYZ         0.1450         0.2750        -0.2396  + XYZ ADJUSTMENTS
+ XYZ  -2455552.6490  -4767163.0873   3441691.0273  NEW L1 PHS CEN @ 2024.8921
+ XYZ  -2455552.6280  -4767163.0455   3441690.9967  NEW ARP @ 2024.8921
+ XYZ  -2455552.6058  -4767163.0035   3441690.9664  NEW MON @ 2024.8921
+ LLH  32 52  5.50487  242 44 49.66180      1.5026  NEW L1 PHS CEN @ 2024.8921
+ LLH  32 52  5.50486  242 44 49.66178      1.4467  NEW ARP @ 2024.8921
+ LLH  32 52  5.50487  242 44 49.66180      1.3904  NEW MON @ 2024.8921
+
+                                   G-FILES
+
+Axx20241122  241122
+B20241122 113  2411222359 1 page5 v2008.25IGS     137 1 2 27NGS   202412 2IFDDPF
+IIGS20_2335          IGS   20241006
+C00090005  215426187    6 -202727917   12 -124290080    9 X3274AZLABX3274AP473
+D  1  2  7758369  1  3 -8876782  2  3 -8939396
+
+Axx20241122  241122
+B20241122 113  2411222359 1 page5 v2008.25IGS     137 1 2 27NGS   202412 2IFDDPF
+IIGS20_2335          IGS   20241006
+C00090002  -47915857    8 -111315648   15 -188325966    9 X3274AZLABX3274AP475
+D  1  2  9572945  1  3 -8703757  2  3 -8872679
+
+Axx20241122  241122
+B20241122 113  2411222359 1 page5 v2008.25IGS     137 1 2 27NGS   202412 2IFDDPF
+IIGS20_2335          IGS   20241006
+C00090003  128606063    8  -53099532   12   20314388    9 X3274AZLABX3274AP472
+D  1  2  8114542  1  3 -8202533  2  3 -9497827
+
+                   POST-FIT RMS BY SATELLITE VS. BASELINE
+
+            OVERALL     02     03     04     05     06     07     08     09
+ p473-zlab|  0.016  0.017  0.017  0.014  0.016  0.013  0.013  0.019  0.023
+                10     11     12     13     14     15     16     17     18
+ p473-zlab|  0.014  0.016  0.014  0.014  0.014  0.017  0.018  0.015  0.017
+                19     20     21     22     23     24     25     26     27
+ p473-zlab|  0.016  0.015  0.017  0.016  0.015  0.016  0.023  0.020  0.016
+                28     29     30     31     32
+ p473-zlab|  0.016  0.014  0.014  0.017  0.018                           
+
+            OVERALL     02     03     04     05     06     07     08     09
+ p475-zlab|  0.016  0.016  0.016  0.015  0.014  0.014  0.013  0.020  0.024
+                10     11     12     13     14     15     16     17     18
+ p475-zlab|  0.015  0.017  0.014  0.014  0.014  0.017  0.018  0.014  0.017
+                19     20     21     22     23     24     25     26     27
+ p475-zlab|  0.021  0.015  0.018  0.018  0.016  0.015  0.019  0.021  0.016
+                28     29     30     31     32
+ p475-zlab|  0.016  0.015  0.012  0.017  0.018                           
+
+            OVERALL     02     03     04     05     06     07     08     09
+ p472-zlab|  0.016  0.018  0.016  0.014  0.016  0.013  0.013  0.019  0.026
+                10     11     12     13     14     15     16     17     18
+ p472-zlab|  0.014  0.017  0.014  0.015  0.015  0.018  0.019  0.015  0.018
+                19     20     21     22     23     24     25     26     27
+ p472-zlab|  0.017  0.016  0.017  0.017  0.015  0.015  0.021  0.020  0.016
+                28     29     30     31     32
+ p472-zlab|  0.016  0.014  0.014  0.017  0.017                           
+
+                        OBS BY SATELLITE VS. BASELINE
+
+            OVERALL     02     03     04     05     06     07     08     09
+ p473-zlab|  15751    498    623    692    525    512    621    708    194
+                10     11     12     13     14     15     16     17     18
+ p473-zlab|    738    613    681    338    551    466    550    506    346
+                19     20     21     22     23     24     25     26     27
+ p473-zlab|     79    549    538    607    699    509     76    624    507
+                28     29     30     31     32
+ p473-zlab|    536    719    594    308    244                           
+            OVERALL     02     03     04     05     06     07     08     09
+ p475-zlab|  15704    483    622    708    529    514    612    680    210
+                10     11     12     13     14     15     16     17     18
+ p475-zlab|    727    631    697    337    549    469    549    520    318
+                19     20     21     22     23     24     25     26     27
+ p475-zlab|     79    543    538    629    699    512     71    596    495
+                28     29     30     31     32
+ p475-zlab|    546    702    589    308    242                           
+            OVERALL     02     03     04     05     06     07     08     09
+ p472-zlab|  15682    488    623    691    528    515    615    699    175
+                10     11     12     13     14     15     16     17     18
+ p472-zlab|    738    627    687    337    550    480    546    519    331
+                19     20     21     22     23     24     25     26     27
+ p472-zlab|     79    543    554    633    703    508     41    584    487
+                28     29     30     31     32
+ p472-zlab|    545    720    585    307    244                           
+
+
+   ITRF position of zlab as determined by individual baselines
+               X              Y              Z
+p473    -2455552.612   -4767163.003    3441690.964
+p475    -2455552.612   -4767163.001    3441690.965
+p472    -2455552.606   -4767163.003    3441690.966
+
+   Residuals of position determined by individual baselines from the final position
+               X              Y              Z           East          North             Up
+p473          -0.002         -0.001         -0.002         -0.001         -0.002          0.000
+p475          -0.002          0.002          0.000         -0.003          0.001         -0.000
+p472           0.004         -0.001          0.001          0.004          0.001         -0.000
+
+ Covariance Matrix for the xyz OPUS Position (meters^2).
+    0.0000004267     0.0000000683    -0.0000000410
+    0.0000000683     0.0000013200    -0.0000000759
+   -0.0000000410    -0.0000000759     0.0000005400
+
+ Covariance Matrix for the enu OPUS Position (meters^2).
+    0.0000005584    -0.0000001765     0.0000002717
+   -0.0000001765     0.0000006507    -0.0000002588
+    0.0000002717    -0.0000002588     0.0000010776
+
+ Horizontal network accuracy =    0.00193 meters.
+ Vertical network accuracy   =    0.00204 meters.
+
+
+                       Derivation of NAD 83 vector components
+
+
+  Position of reference station ARP in NAD_83(2011)(EPOCH:2010.0000).
+                  Xa(m)           Ya(m)           Za(m)
+       P473  -2434008.77015  -4787437.54856   3429261.82929    2010.00
+       P475  -2460342.97062  -4778296.32689   3422858.22318    2010.00
+       P472  -2442690.78360  -4772474.70535   3443722.27817    2010.00
+
+  Position of reference station monument in NAD_83(2011)(EPOCH:2010.0000).
+                  Xr(m)           Yr(m)           Zr(m)
+       P473  -2434008.76695  -4787437.54236   3429261.82479    2010.00
+       P475  -2460342.96742  -4778296.32069   3422858.21868    2010.00
+       P472  -2442690.78040  -4772474.69915   3443722.27367    2010.00
+
+  Velocity of reference station monument in NAD_83(2011)(EPOCH:2010.0000).
+                  Vx (m/yr)       Vy (m/yr)       Vz (m/yr)
+       P473        -0.01645         0.02825         0.02310
+       P475        -0.01677         0.02884         0.02439
+       P472        -0.01590         0.02805         0.02302
+
+  Vectors from unknown station monument to reference station monument
+  in NAD_83(2011)(EPOCH:2010.0000).
+                Xr-X= DX(m)     Yr-Y= DY(m)     Zr-Z= DZ(m)
+       P473     21542.62605    -20272.79536    -12428.98921    2010.00
+       P475     -4791.57442    -11131.57369    -18832.59532    2010.00
+       P472     12860.61260     -5309.95215      2031.45967    2010.00
+
+       STATE PLANE COORDINATES - U.S. Survey Foot
+         SPC (0406    CA 6)
+Northing (Y) [feet]        1897148.971
+Easting  (X) [feet]        6253740.288
+Convergence  [degrees]     -0.55108333
+Point Scale                 0.99998696
+Combined Factor             0.99998662
+
+
+              ********** New Reference Frame Preview **********
+
+We are replacing the nation’s NAD 83 and NAVD 88 datums, to improve access and accuracy of
+the National Spatial Reference System. More at https://urldefense.com/v3/__https://geodesy.noaa.gov/datums/newdatums/__;!!Mih3wA!GMOz61EyvqztTiVkCH7z6fwWhzhXcKuOj8EMWF-85bI9B7El340Im62VPMDPu2zg2j2jiQAu5k5SzxAmrtRbiF4$
+
+Below are approximate coordinates for this solution in the new frames:
+
+APPROX ORTHO HGT:     36.591 (m) [PROTOTYPE (Computed using xGeoid19B,GRS80,ITRF2014)]
+
+
+This position and the above vector components were computed without any
+knowledge by the National Geodetic Survey regarding the equipment or
+field operating procedures used.

@@ -1,0 +1,10 @@
+ FILE: zlab3290.24o OP1733187608211
+
+ 9999   Error: Datasets less than two hours in duration no longer accepted to OPUS-S.
+ 9999
+ 9999   Your data file appears to span less than 2 hours. OPUS guidelines require a
+ 9999   minimum data span of 2 hours and strongly recommend 4 hours to achieve
+ 9999   best accuracies.  Datasets less than two hours in duration are no longer
+ 9999   allowed in OPUS-S.  Please re-submit your data to OPUS-RS.
+ 9999   If your file is actually over 2 hours, check for formatting compliance
+ 9999
