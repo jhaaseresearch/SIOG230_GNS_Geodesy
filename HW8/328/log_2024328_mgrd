@@ -1,0 +1,2420 @@
+RINEX health Logfile      mgrd                              COMMENT
+     30.00                                                  INTERVAL
+DEFAULT                                                     AMB AT DAY-BOUNDARY
+        23        28         0                              AMB MAX/TOT/NEW
+      4798      2159         0                              EPO AVA/REM/NEW
+ 2024 11 23 17  9 30.0000000     6600.00                    RES TIME BEG/LEN
+GPS       L1   L2                                           SYS / FREQUENCY BAND
+GLO       G1   G2                                           SYS / FREQUENCY BAND
+GAL       E1   E5a                                          SYS / FREQUENCY BAND
+BDS       B1I  B3I                                          SYS / FREQUENCY BAND
+QZS       L1   L2                                           SYS / FREQUENCY BAND
+                                                            END OF HEADER
+TIM 2024 11 23 17  9 30.0000000
+G02                             2024 11 23 18 14 30.0000000 AMB
+G03                                                         DEL_SHORTPIECE
+G04                                                         DEL_SHORTPIECE
+G09                                                         DEL_SHORTPIECE
+G16                                                         DEL_SHORTPIECE
+G21                                                         DEL_SHORTPIECE
+G26                                                         DEL_SHORTPIECE
+G28                                                         DEL_SHORTPIECE
+G31                                                         DEL_SHORTPIECE
+R07                                                         DEL_SHORTPIECE
+R08                                                         DEL_SHORTPIECE
+R09                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E07                                                         DEL_SHORTPIECE
+E08                                                         DEL_SHORTPIECE
+E13                                                         DEL_SHORTPIECE
+E26                                                         DEL_SHORTPIECE
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C14                             2024 11 23 18 59 30.0000000 AMB
+C21                             2024 11 23 17 46  0.0000000 AMB
+C24                             2024 11 23 18 59 30.0000000 AMB
+C26                             2024 11 23 18 59 30.0000000 AMB
+C33                             2024 11 23 18 59 30.0000000 AMB
+TIM 2024 11 23 17 10  0.0000000
+G03                             2024 11 23 18 59 30.0000000 AMB
+G04                             2024 11 23 18 59 30.0000000 AMB
+G09                             2024 11 23 18 59 30.0000000 AMB
+G16                             2024 11 23 18 59 30.0000000 AMB
+G21                             2024 11 23 17 47  0.0000000 AMB
+G26                             2024 11 23 18 59 30.0000000 AMB
+G28                                                         DEL_SHORTPIECE
+G31                             2024 11 23 18 30 30.0000000 AMB
+R07                             2024 11 23 18 59 30.0000000 AMB
+R08                             2024 11 23 18 59 30.0000000 AMB
+R09                             2024 11 23 18 54 30.0000000 AMB
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E07                             2024 11 23 18 59 30.0000000 AMB
+E08                             2024 11 23 18 24 30.0000000 AMB
+E13                             2024 11 23 17 56  0.0000000 AMB
+E26                             2024 11 23 18 59  0.0000000 AMB
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C42                             2024 11 23 18 59 30.0000000 AMB
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 10 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 11  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 11 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 12  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 12 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 13  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 13 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 14  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 14 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E30                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 15  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E30                             2024 11 23 18 59 30.0000000 AMB
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 15 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E30                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 16  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 16 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 17  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 17 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 18  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 18 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 19  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 19 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 20  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 20 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 21  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 21 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 22  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 22 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 23  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 23 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 24  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 24 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 25  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 25 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 26  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 26 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 27  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 27 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 28  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 28 30.0000000
+G07                                                         DEL_LOWELEVATION
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 29  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 29 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 30  0.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 30 30.0000000
+G07                                                         DEL_LOWELEVATION
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 31  0.0000000
+G07                             2024 11 23 18 59 30.0000000 AMB
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 31 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 32  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 32 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 33  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 33 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 34  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 34 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 35  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 35 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 36  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 36 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 37  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 37 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 38  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 38 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 39  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 39 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 40  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LOWELEVATION
+TIM 2024 11 23 17 40 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 41  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 41 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 42  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 42 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 43  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 43 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 44  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 44 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 45  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 45 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 46  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 46 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 47  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 47 30.0000000
+G21                                                         DEL_LESSTHAN4OBS
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 48  0.0000000
+G21                                                         DEL_LESSTHAN4OBS
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C11                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 48 30.0000000
+G21                                                         DEL_LESSTHAN4OBS
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 49  0.0000000
+G21                                                         DEL_LESSTHAN4OBS
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 49 30.0000000
+G21                                                         DEL_LESSTHAN4OBS
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 50  0.0000000
+G21                                                         DEL_LESSTHAN4OBS
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 50 30.0000000
+G21                                                         DEL_LESSTHAN4OBS
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 51  0.0000000
+G21                                                         DEL_LESSTHAN4OBS
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 51 30.0000000
+G21                                                         DEL_LESSTHAN4OBS
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 52  0.0000000
+G06                                                         DEL_LESSTHAN4OBS
+G21                                                         DEL_LESSTHAN4OBS
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R11                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 52 30.0000000
+G06                                                         DEL_LESSTHAN4OBS
+G21                                                         DEL_LESSTHAN4OBS
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R11                             2024 11 23 18 59 30.0000000 AMB
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 53  0.0000000
+G06                                                         DEL_LESSTHAN4OBS
+G21                                                         DEL_LESSTHAN4OBS
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 53 30.0000000
+G06                                                         DEL_LESSTHAN4OBS
+G21                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 54  0.0000000
+G06                                                         DEL_LESSTHAN4OBS
+G21                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 54 30.0000000
+G06                                                         DEL_LESSTHAN4OBS
+G21                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+C43                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 55  0.0000000
+G06                                                         DEL_LESSTHAN4OBS
+G21                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 55 30.0000000
+G06                                                         DEL_LESSTHAN4OBS
+G21                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 56  0.0000000
+G06                                                         DEL_LESSTHAN4OBS
+G21                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 56 30.0000000
+G06                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 57  0.0000000
+G06                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 57 30.0000000
+G06                                                         DEL_LESSTHAN4OBS
+G21                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 58  0.0000000
+G06                                                         DEL_LESSTHAN4OBS
+G21                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 58 30.0000000
+G06                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 59  0.0000000
+G06                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 17 59 30.0000000
+G06                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+C28                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  0  0.0000000
+G06                             2024 11 23 18 59 30.0000000 AMB
+G21                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  0 30.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C25                             2024 11 23 18 59 30.0000000 AMB
+TIM 2024 11 23 18  1  0.0000000
+G21                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  1 30.0000000
+G21                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  2  0.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  2 30.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  3  0.0000000
+G21                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  3 30.0000000
+G21                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  4  0.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  4 30.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  5  0.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  5 30.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  6  0.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  6 30.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  7  0.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  7 30.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  8  0.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  8 30.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  9  0.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18  9 30.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 10  0.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 10 30.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 11  0.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 11 30.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 12  0.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 12 30.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 13  0.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 13 30.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 14  0.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 14 30.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LOWELEVATION
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 15  0.0000000
+G02                                                         DEL_LOWELEVATION
+R10                                                         DEL_LESSTHAN4OBS
+R22                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 15 30.0000000
+G02                                                         DEL_LOWELEVATION
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 16  0.0000000
+G02                                                         DEL_LOWELEVATION
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 16 30.0000000
+G02                                                         DEL_LOWELEVATION
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 17  0.0000000
+G02                                                         DEL_LOWELEVATION
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 17 30.0000000
+G02                                                         DEL_LOWELEVATION
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 18  0.0000000
+G02                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 18 30.0000000
+G02                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 19  0.0000000
+G02                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 19 30.0000000
+G02                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 20  0.0000000
+G02                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 20 30.0000000
+G02                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 21  0.0000000
+G02                                                         DEL_LESSTHAN4OBS
+G28                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 21 30.0000000
+G02                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 22  0.0000000
+G02                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 22 30.0000000
+G02                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 23  0.0000000
+G02                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 23 30.0000000
+G02                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 24  0.0000000
+G02                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 24 30.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 25  0.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 25 30.0000000
+G02                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E13                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 26  0.0000000
+G02                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 26 30.0000000
+G02                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 27  0.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 27 30.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 28  0.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 28 30.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 29  0.0000000
+G02                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 29 30.0000000
+G02                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 30  0.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E27                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 30 30.0000000
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E27                             2024 11 23 18 59 30.0000000 AMB
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 31  0.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 31 30.0000000
+G02                                                         DEL_LESSTHAN4OBS
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 32  0.0000000
+G02                                                         DEL_LESSTHAN4OBS
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 32 30.0000000
+G02                                                         DEL_LESSTHAN4OBS
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 33  0.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_SHORTPIECE
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 33 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_SHORTPIECE
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 34  0.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_SHORTPIECE
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 34 30.0000000
+G31                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_SHORTPIECE
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 35  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+G31                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_SHORTPIECE
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 35 30.0000000
+G31                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_SHORTPIECE
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 36  0.0000000
+G28                                                         DEL_LESSTHAN4OBS
+G31                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LOWELEVATION
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 36 30.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LOWELEVATION
+E08                                                         DEL_SHORTPIECE
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 37  0.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LOWELEVATION
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 37 30.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 38  0.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 38 30.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 39  0.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 39 30.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 40  0.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E02                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 40 30.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 41  0.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 41 30.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 42  0.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 42 30.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R09                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 43  0.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E29                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 43 30.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E29                             2024 11 23 18 59 30.0000000 AMB
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 44  0.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R23                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 44 30.0000000
+G02                                                         DEL_LESSTHAN4OBS
+G28                                                         DEL_LESSTHAN4OBS
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 45  0.0000000
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 45 30.0000000
+G30                                                         DEL_LESSTHAN4OBS
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 46  0.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 46 30.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 47  0.0000000
+G30                                                         DEL_LESSTHAN4OBS
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 47 30.0000000
+G30                                                         DEL_LESSTHAN4OBS
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 48  0.0000000
+G30                                                         DEL_LESSTHAN4OBS
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E26                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 48 30.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 49  0.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 49 30.0000000
+G30                                                         DEL_LESSTHAN4OBS
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 50  0.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 50 30.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 51  0.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 51 30.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 52  0.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 52 30.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 53  0.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 53 30.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 54  0.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 54 30.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R10                                                         DEL_LESSTHAN4OBS
+R24                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 55  0.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R09                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 55 30.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R09                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 56  0.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R09                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 56 30.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R09                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 57  0.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R09                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 57 30.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R09                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 58  0.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R09                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 58 30.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R09                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 59  0.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R09                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23 18 59 30.0000000
+G30                                                         DEL_LOWELEVATION
+G31                                                         DEL_LESSTHAN4OBS
+R09                                                         DEL_SHORTPIECE
+R10                                                         DEL_LESSTHAN4OBS
+E08                                                         DEL_LESSTHAN4OBS
+E21                                                         DEL_LESSTHAN4OBS
+E26                                                         DEL_LESSTHAN4OBS
+E33                                                         DEL_LESSTHAN4OBS
+C21                                                         DEL_LESSTHAN4OBS
+C41                                                         DEL_LESSTHAN4OBS

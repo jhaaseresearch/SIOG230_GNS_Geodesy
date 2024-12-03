@@ -1,0 +1,128 @@
+RINEX health Logfile      n551                              COMMENT
+     30.00                                                  INTERVAL
+DEFAULT                                                     AMB AT DAY-BOUNDARY
+        11        11         0                              AMB MAX/TOT/NEW
+      1221        58         0                              EPO AVA/REM/NEW
+ 2024 11 23  0  0  0.0000000     3600.00                    RES TIME BEG/LEN
+GPS       L1   L2                                           SYS / FREQUENCY BAND
+GLO       G1   G2                                           SYS / FREQUENCY BAND
+GAL       E1   E5a                                          SYS / FREQUENCY BAND
+BDS       B1I  B3I                                          SYS / FREQUENCY BAND
+QZS       L1   L2                                           SYS / FREQUENCY BAND
+                                                            END OF HEADER
+TIM 2024 11 23  0  0  0.0000000
+G02                             2024 11 23  1  0  0.0000000 AMB
+G07                             2024 11 23  1  0  0.0000000 AMB
+G13                             2024 11 23  1  0  0.0000000 AMB
+G14                             2024 11 23  1  0  0.0000000 AMB
+G15                             2024 11 23  1  0  0.0000000 AMB
+G17                             2024 11 23  1  0  0.0000000 AMB
+G19                             2024 11 23  1  0  0.0000000 AMB
+G21                             2024 11 23  0 53 30.0000000 AMB
+G22                             2024 11 23  1  0  0.0000000 AMB
+G30                             2024 11 23  1  0  0.0000000 AMB
+TIM 2024 11 23  0 35 30.0000000
+G06                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 36  0.0000000
+G06                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 36 30.0000000
+G06                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 37  0.0000000
+G06                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 37 30.0000000
+G06                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 38  0.0000000
+G06                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 38 30.0000000
+G06                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 39  0.0000000
+G06                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 39 30.0000000
+G06                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 40  0.0000000
+G06                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 40 30.0000000
+G06                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 41  0.0000000
+G06                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 41 30.0000000
+G06                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 42  0.0000000
+G06                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 42 30.0000000
+G06                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 43  0.0000000
+G06                             2024 11 23  1  0  0.0000000 AMB
+TIM 2024 11 23  0 45 30.0000000
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 46  0.0000000
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 46 30.0000000
+G24                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 47  0.0000000
+G24                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 47 30.0000000
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 48  0.0000000
+G24                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 48 30.0000000
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 49  0.0000000
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 49 30.0000000
+G24                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 50  0.0000000
+G24                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 50 30.0000000
+G24                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 51  0.0000000
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 51 30.0000000
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 52  0.0000000
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 52 30.0000000
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 53  0.0000000
+G24                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 53 30.0000000
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 54  0.0000000
+G21                                                         DEL_LOWELEVATION
+G24                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 54 30.0000000
+G21                                                         DEL_LOWELEVATION
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 55  0.0000000
+G21                                                         DEL_LOWELEVATION
+G24                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 55 30.0000000
+G21                                                         DEL_LOWELEVATION
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 56  0.0000000
+G21                                                         DEL_LOWELEVATION
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 56 30.0000000
+G21                                                         DEL_LOWELEVATION
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 57  0.0000000
+G21                                                         DEL_LOWELEVATION
+G24                                                         DEL_LOWELEVATION
+TIM 2024 11 23  0 57 30.0000000
+G21                                                         DEL_LOWELEVATION
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 58  0.0000000
+G21                                                         DEL_LOWELEVATION
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 58 30.0000000
+G21                                                         DEL_LOWELEVATION
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 59  0.0000000
+G21                                                         DEL_LOWELEVATION
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  0 59 30.0000000
+G21                                                         DEL_LOWELEVATION
+G24                                                         DEL_LESSTHAN4OBS
+TIM 2024 11 23  1  0  0.0000000
+G21                                                         DEL_LOWELEVATION
+G24                                                         DEL_LESSTHAN4OBS
