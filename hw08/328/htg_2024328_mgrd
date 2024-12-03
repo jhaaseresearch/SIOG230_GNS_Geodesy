@@ -1,0 +1,56 @@
+mgrd                                                        STATION
+Static      10.000000 10.000000 10.000000                   POS MODE/PRIORI (meter)
+YES                                                         OBS STRICT EDITING
+2024 11 23 17  9 30.00                                      OBS FIRST EPOCH
+2024 11 23 18 59 30.00                                      OBS LAST EPOCH
+   30.00                                                    OBS INTERVAL (sec)
+    7.00                                                    OBS MASK ANGLE (deg)
+    0.30                                                    MEASUREMENT NOISE PSEUDORANGE (1-SIGMA, meter)
+    0.01                                                    MEASUREMENT NOISE CARRIER PHASE (1-SIGMA, cycle)
+WUM0MGXRAP_20243280000_01D_05M_ORB.SP3                      SAT ORBIT
+WUM0MGXRAP_20243280000_01D_30S_CLK.CLK                      SAT CLOCK
+WUM0MGXRAP_20243280000_01D_30S_ATT.OBX                      SAT ATTITUDE
+WUM0MGXRAP_20243280000_01D_01D_OSB.BIA                      SAT BIAS
+WUM0MGXRAP_20243280000_01D_01D_ERP.ERP                      EARTH ROTATION PARAMETERS
+SEPT POLARX5                                                SITE RECEIVER TYPE
+Unknown         NONE                                        SITE ANTENNA TYPE
+        0.0000        0.0000        0.0000                  SITE ANTENNA E/N/H (meter)
+G  L1   1       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+G  L2   2       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+R  G1   1       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+R  G2   2       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+E  E1   1       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+E  E5a  5       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+C  B1I  2       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+C  B3I  6       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+J  L1   1       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+J  L2   2       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+IGS20_2335                                                  TABLE ANTEX
+WNO                                                         RECEIVER CLOCK
+STO                                                         TROP ZENITH
+PWC:720                                                     TROP GRADIENT
+NO                                                          IONO 2ND
+SOLID  POLE OCEAN(Scherneck)                                TIDES
+NO                                                          AMB FIXING
+Start Field Description                                     COMMENT
+YearS                                                       START YEAR (GPS TIME)
+MonS                                                        START MONTH (GPS TIME)
+DayS                                                        START DAY (GPS TIME)
+HourS                                                       START HOUR (GPS TIME)
+MinS                                                        START MINUTE (GPS TIME)
+SecS                                                        START SECOND (GPS TIME)
+YearE                                                       END YEAR (GPS TIME)
+MonE                                                        END MONTH (GPS TIME)
+DayE                                                        END DAY (GPS TIME)
+HourE                                                       END HOUR (GPS TIME)
+MinE                                                        END MINUTE (GPS TIME)
+SecE                                                        END SECOND (GPS TIME)
+HTGCini                                                     INITIAL N-S TROPOSPHERE GRADIENT (meter)
+HTGCcor                                                     N-S TROPOSPHERE GRADIENT CORRECTION (meter)
+HTGSini                                                     INITIAL E-W TROPOSPHERE GRADIEN (meter)
+HTGScor                                                     E-W TROPOSPHERE GRADIENT CORRECTION (meter)
+End Field Description                                       COMMENT
+                                                            END OF HEADER
+*YearS  MonS  DayS HourS  MinS      SecS YearE  MonE  DayE HourE  MinE      SecE    HTGCini    HTGCcor    HTGSini    HTGScor
+  2024    11    23    17     9 30.000000  2024    11    23    18    59 30.000000   0.000000   0.001488   0.000000  -0.000930
+  2024    11    24     5     9 30.000000  2024    11    24     6    59 30.000000   0.000000  -0.000567   0.000000  -0.002253

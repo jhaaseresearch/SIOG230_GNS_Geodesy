@@ -1,0 +1,38 @@
+PBO Station Position Time Series. Reference Frame : ITRF2014
+Format Version: 1.1.0
+4-character ID: MGRD
+Station name  : MGRD
+First Epoch   : 20241123 180428
+Last Epoch    : 20241123 180428
+Release Date  : 20241126 121300
+XYZ Reference position :  -2455585.96841 -4767123.38579  3441723.99898 (ITRF2014)
+NEU Reference position :    32.8685435599  242.7466175400    2.56754 (ITRF2014/WGS84)
+Start Field Description
+YYYYMMDD      Year, month, day for the given position epoch
+HHMMSS        Hour, minute, second for the given position epoch
+JJJJJ.JJJJJ   Modified Julian day for the given position epoch
+X             X coordinate, Specified Reference Frame, meters
+Y             Y coordinate, Specified Reference Frame, meters
+Z             Z coordinate, Specified Reference Frame, meters
+Sx            Standard deviation of the X position, meters
+Sy            Standard deviation of the Y position, meters
+Sz            Standard deviation of the Z position, meters
+Rxy           Correlation of the X and Y position
+Rxz           Correlation of the X and Z position
+Ryz           Correlation of the Y and Z position
+Nlat          North latitude, WGS-84 ellipsoid, decimal degrees
+Elong         East longitude, WGS-84 ellipsoid, decimal degrees
+Height (Up)   Height relative to WGS-84 ellipsoid, m
+dN            Difference in North component from NEU reference position, meters
+dE            Difference in East component from NEU reference position, meters
+du            Difference in vertical component from NEU reference position, meters
+Sn            Standard deviation of dN, meters
+Se            Standard deviation of dE, meters
+Su            Standard deviation of dU, meters
+Rne           Correlation of dN and dE
+Rnu           Correlation of dN and dU
+Reu           Correlation of dE and dU
+Soln          "rapid", "final", "suppl/suppf", "campd", or "repro" corresponding to products generated with rapid or final orbit products, in supplemental processing, campaign data processing
+End Field Description
+*YYYYMMDD HHMMSS JJJJJ.JJJJ         X             Y             Z            Sx        Sy       Sz     Rxy   Rxz    Ryz            NLat         Elong         Height         dN        dE        dU         Sn       Se       Su      Rne    Rnu    Reu  Soln
+ 20241123 180428 60637.7531 -2455585.96841 -4767123.38579  3441723.99898  0.00304  0.00279  0.00198  0.087 -0.093 -0.137      32.8685435599  242.7466175400    2.56754     0.00000   0.00000   0.00000    0.00086  0.00223  0.00390  0.079 -0.054 -0.059 rapid

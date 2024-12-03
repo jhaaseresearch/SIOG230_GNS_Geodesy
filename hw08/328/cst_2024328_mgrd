@@ -1,0 +1,7 @@
+Single-Difference Ambiguity Constraint  mgrd                COMMENT
+    SD                                                      TYPE OF CONSTRAINT
+     8     8     0                                          G   AMB FIXING (T/W/N)
+     6     6     0                                          E   AMB FIXING (T/W/N)
+     5     5     0                                          C3  AMB FIXING (T/W/N)
+    19    19     0    LAMBDA                                IND AMB FIXING (T/W/N)
+                                                            END OF HEADER
