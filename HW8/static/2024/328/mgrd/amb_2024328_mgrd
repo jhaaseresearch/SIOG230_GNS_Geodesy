@@ -1,0 +1,75 @@
+mgrd                                                        STATION
+Static      10.000000 10.000000 10.000000                   POS MODE/PRIORI (meter)
+YES                                                         OBS STRICT EDITING
+2024 11 23 17  9 30.00                                      OBS FIRST EPOCH
+2024 11 23 18 59 30.00                                      OBS LAST EPOCH
+   30.00                                                    OBS INTERVAL (sec)
+    7.00                                                    OBS MASK ANGLE (deg)
+    0.30                                                    MEASUREMENT NOISE PSEUDORANGE (1-SIGMA, meter)
+    0.01                                                    MEASUREMENT NOISE CARRIER PHASE (1-SIGMA, cycle)
+WUM0MGXRAP_20243280000_01D_05M_ORB.SP3                      SAT ORBIT
+WUM0MGXRAP_20243280000_01D_30S_CLK.CLK                      SAT CLOCK
+WUM0MGXRAP_20243280000_01D_30S_ATT.OBX                      SAT ATTITUDE
+WUM0MGXRAP_20243280000_01D_01D_OSB.BIA                      SAT BIAS
+WUM0MGXRAP_20243280000_01D_01D_ERP.ERP                      EARTH ROTATION PARAMETERS
+SEPT POLARX5                                                SITE RECEIVER TYPE
+Unknown         NONE                                        SITE ANTENNA TYPE
+        0.0000        0.0000        0.0000                  SITE ANTENNA E/N/H (meter)
+G  L1   1       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+G  L2   2       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+R  G1   1       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+R  G2   2       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+E  E1   1       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+E  E5a  5       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+C  B1I  2       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+C  B3I  6       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+J  L1   1       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+J  L2   2       0.00      0.00      0.00                    SITE ANTENNA PCO E/N/H (millimeter)
+IGS20_2335                                                  TABLE ANTEX
+WNO                                                         RECEIVER CLOCK
+STO                                                         TROP ZENITH
+PWC:720                                                     TROP GRADIENT
+NO                                                          IONO 2ND
+SOLID  POLE OCEAN(Scherneck)                                TIDES
+NO                                                          AMB FIXING
+   23                                                       # OF AMB RESOLVABLE SAT
+G02 G03 G04 G06 G07 G09 G16 G21 G26 G31 E07 E08 E13 E26 E27 AMB RESOLVABLE SATELLITES
+E29 E30 C21 C24 C25 C26 C33 C42                             AMB RESOLVABLE SATELLITES
+Start Field Description                                     COMMENT
+PRN                                                         SATELLITE PRN
+IFamb                                                       IONOSPHERE-FREE COMBINATION AMBIGUITY (cycle)
+WLamb                                                       WIDE-LANE AMBIGUITY (cycle)
+SigIF                                                       SAMPLE STANDARD DEVIATION OF IFamb (cycle)
+SigWL                                                       SAMPLE STANDARD DEVIATION OF WLamb (cycle)
+Elev                                                        MEAN ELEVATION ANGLE (deg)
+End Field Description                                       COMMENT
+                                                            END OF HEADER
+*PRN                 IFamb                 WLamb              MjdS              MjdE    SigIF    SigWL  Elev
+ G02             29.330468            -17.286085  60637.7149305556  60637.7600694444   0.0959   0.0268  17.9
+ C14             -1.388940             19.351706  60637.7149305556  60637.7913194444   0.0002   0.0112  67.0
+ C21              3.064389             10.484576  60637.7149305556  60637.7402777778   0.0962   0.0586  35.2
+ C24             -2.620958              2.309930  60637.7149305556  60637.7913194444   0.0350   0.0141  66.6
+ C26             -1.941718              2.422056  60637.7149305556  60637.7913194444   0.0431   0.0142  52.9
+ C33              2.114936            -34.616719  60637.7149305556  60637.7913194444   0.0293   0.0142  41.9
+ G03              9.675403            -20.056947  60637.7152777778  60637.7913194444   0.0164   0.0098  72.9
+ G04             14.702555            -19.918248  60637.7152777778  60637.7913194444   0.0170   0.0096  52.6
+ G09             17.775470            -35.889354  60637.7152777778  60637.7913194444   0.0364   0.0148  28.3
+ G16             27.286165            -27.115910  60637.7152777778  60637.7913194444   0.0525   0.0153  44.3
+ G21             27.773312            -30.364319  60637.7152777778  60637.7409722222   0.0692   0.0381  15.0
+ G26             -5.096167            -37.992319  60637.7152777778  60637.7913194444   0.0473   0.0213  39.1
+ G31             14.624601            -12.977738  60637.7152777778  60637.7711805556   0.0647   0.0237  39.0
+ R07             -7.633989            -61.847542  60637.7152777778  60637.7913194444   0.0347   0.0141  56.0
+ R08            -22.231878            -78.682382  60637.7152777778  60637.7913194444   0.0385   0.0151  36.0
+ R09              3.975151            -57.732860  60637.7152777778  60637.7878472222   0.0541   0.0308  56.5
+ E07             -1.471971            -17.153687  60637.7152777778  60637.7913194444   0.0256   0.0085  61.7
+ E08              8.506528            -16.987488  60637.7152777778  60637.7670138889   0.0533   0.0424  30.3
+ E13             -2.957747            -36.197456  60637.7152777778  60637.7472222222   0.0569   0.0297  20.5
+ E26              5.414039            -14.197002  60637.7152777778  60637.7909722222   0.0377   0.0152  29.7
+ C42             -3.876370            -13.552414  60637.7152777778  60637.7913194444   0.0372   0.0095  68.3
+ E30             -6.027405            -34.208951  60637.7187500000  60637.7913194444   0.0404   0.0144  46.2
+ G07             17.449121            -49.196424  60637.7298611111  60637.7913194444   0.0468   0.0187  21.7
+ R11             -0.340004           -104.876832  60637.7447916667  60637.7913194444   0.0786   0.0268  25.0
+ G06             11.051960            -47.865282  60637.7500000000  60637.7913194444   0.0779   0.0476  11.6
+ C25            197.231188             44.371079  60637.7503472222  60637.7913194444   0.0452   0.0204  24.0
+ E27            223.683129             72.582280  60637.7711805556  60637.7913194444   0.0246   0.0217  46.5
+ E29             42.663459             -3.226631  60637.7802083333  60637.7913194444   0.0225   0.0216  42.8
